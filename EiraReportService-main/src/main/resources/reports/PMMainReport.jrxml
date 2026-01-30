@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PMMainReport" pageWidth="595" pageHeight="842" whenNoDataType="NoPages" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7536d612-c4f4-4fe4-a7a3-55d58bc2441e">
+	<parameter name="SUBREPORT" class="net.sf.jasperreports.engine.JasperReport"/>
+	<parameter name="SUBREPORT_DATA_SOURCE" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<parameter name="SUBREPORT_PATH" class="net.sf.jasperreports.engine.JasperReport"/>
+	<parameter name="COMPANY_NAME" class="java.lang.String"/>
+	<parameter name="HEADER_SUBREPORT" class="net.sf.jasperreports.engine.JasperReport"/>
+	<parameter name="HEADER_SUBREPORT_DATA_SOURCE" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<parameter name="MEASUREMENT_SUBREPORT" class="net.sf.jasperreports.engine.JasperReport"/>
+	<parameter name="MEASUREMENT_SUBREPORT_DATA_SOURCE" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<parameter name="ReportTitle" class="java.lang.String"/>
+	<parameter name="FORMATTED_DATE" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="customerLogoPath" class="java.lang.String"/>
+	<field name="customerName" class="java.lang.String"/>
+	<field name="siteName" class="java.lang.String"/>
+	<field name="ticketCode" class="java.lang.String"/>
+	<field name="zeroCount" class="java.lang.Integer"/>
+	<field name="taskCount" class="java.lang.Long"/>
+	<field name="domain" class="java.lang.String"/>
+	<field name="installationCapacity" class="java.math.BigDecimal"/>
+	<field name="siteReference" class="java.lang.String"/>
+	<field name="firstName" class="java.lang.String"/>
+	<field name="categoryName" class="java.lang.String"/>
+	<field name="ticketTypeName" class="java.lang.String"/>
+	<background>
+		<band height="802">
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="263" y="762" width="15" height="29" uuid="017cd986-1928-479f-b8db-3db150626988"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false" isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="275" y="761" width="15" height="30" uuid="29fc19b3-d326-43ff-9004-2d631e10182d"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[of]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="285" y="761" width="13" height="30" uuid="1d7b8aca-7295-46ec-af26-ca81c0d56d01"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="760" width="100" height="29" uuid="f11d9119-424d-4e29-ae86-20c03cea4940"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ticketCode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="772" width="100" height="30" uuid="97506929-8884-49d7-8866-d726e19b2aa9"/>
+				<textFieldExpression><![CDATA[$F{domain}]]></textFieldExpression>
+			</textField>
+		</band>
+	</background>
+	<title>
+		<band height="752" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="177" y="80" width="201" height="61" uuid="9f34ffb0-300e-4f6e-b0fd-ad07e92771a5"/>
+				<imageExpression><![CDATA[$F{customerLogoPath}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="-3" y="160" width="560" height="30" uuid="fd1af5a8-108b-4dea-819c-884046938424"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ReportTitle}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="280" y="328" width="193" height="30" uuid="3610f16c-1e36-4b5d-94c5-999c42c51f77"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="280" y="210" width="192" height="30" forecolor="#05010F" uuid="e6092d9e-778a-4f06-bcb8-2e8165a9f81e"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="20" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{customerName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="114" y="251" width="141" height="31" uuid="f6b70135-7c33-442a-8c27-3485096d172d"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Capacity]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="281" y="251" width="191" height="30" uuid="bc9d60ec-941c-46bb-8ce8-e02c04a08594"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{installationCapacity}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText" x="260" y="251" width="10" height="30" uuid="dbb5a2a7-ba8c-4133-98ba-732a06520812"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="13" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="261" y="288" width="10" height="30" uuid="e04b3623-7a7e-46e7-9de7-10eba6f148af"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="13" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="114" y="288" width="141" height="31" uuid="3343792b-6602-474d-a13e-655e9c0e6ab0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Site ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="261" y="328" width="10" height="30" uuid="7eb30ac4-fa14-4906-afca-b6968772d449"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="13" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="115" y="328" width="139" height="31" uuid="c01e680d-ef92-4add-8b03-37595800d77b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Site Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="261" y="213" width="10" height="30" uuid="e426cfb4-9678-4b1e-b5d3-dcf134d46df2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="13" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="112" y="213" width="143" height="30" uuid="d121a2f8-7ca3-4501-9b4a-ea44b5556fbc"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Customer Name]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="30" y="453" width="489" height="90" uuid="aebc727c-1f64-4b10-ad5a-48186f4a671d"/>
+			</rectangle>
+			<line>
+				<reportElement x="30" y="498" width="490" height="1" uuid="1e42f053-7c14-4658-a96b-623383a39645"/>
+			</line>
+			<line>
+				<reportElement x="172" y="453" width="1" height="90" uuid="68fe3838-1e48-42b9-87c5-4bd94365684b"/>
+			</line>
+			<line>
+				<reportElement x="372" y="453" width="1" height="90" uuid="31a62241-fcce-4bf9-a362-14d1eafcdd9c"/>
+			</line>
+			<staticText>
+				<reportElement x="32" y="457" width="141" height="41" uuid="45c006c9-285a-4836-bbc6-1e2e6755c039"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<text><![CDATA[Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="173" y="457" width="199" height="41" uuid="38337272-326a-455b-930f-fb13a1088bea"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<text><![CDATA[Assigned By]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="373" y="457" width="148" height="41" uuid="a98d8ce8-d82c-4b67-97dd-10aef517884b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<text><![CDATA[Finished On]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="172" y="500" width="201" height="40" uuid="f4cbd00a-b09f-4732-a238-b4a862a9206f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{firstName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="32" y="503" width="141" height="40" uuid="f4506b84-ed1c-46bf-88ab-8a04aa3a2bf7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Ticket has been finished - " + ($F{firstName} != null ? $F{firstName} : "No Name Provided")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="281" y="288" width="182" height="30" uuid="d38a5f74-1144-49a8-bfc9-a43c73a41e79"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteReference}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="372" y="498" width="147" height="45" uuid="e41e158b-f40d-441c-a1ac-8ee9dfe93b8d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{FORMATTED_DATE}]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="740" width="281" height="1" uuid="1b1f1b29-1a71-4055-89bf-77efd6cd681e"/>
+			</break>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="39">
+			<textField>
+				<reportElement x="0" y="3" width="210" height="22" uuid="2c71a8e8-94c7-4741-ba32-959a21f3f074"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ticketTypeName}+ " - "+$F{categoryName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="454" y="3" width="100" height="17" uuid="bd812c2a-432e-433a-ac3a-2d1308fc777d"/>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteReference}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<subreport>
+				<reportElement x="-22" y="-2" width="572" height="0" isRemoveLineWhenBlank="true" uuid="c3f1d211-e5ed-456f-b483-859b104d92d4">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<dataSourceExpression><![CDATA[$P{HEADER_SUBREPORT_DATA_SOURCE}]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{HEADER_SUBREPORT}]]></subreportExpression>
+			</subreport>
+		</band>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<subreport overflowType="Stretch">
+				<reportElement x="-22" y="-2" width="572" height="0" isRemoveLineWhenBlank="true" uuid="2c073b2f-5912-465d-b496-296944b6a386">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<dataSourceExpression><![CDATA[$P{SUBREPORT_DATA_SOURCE}]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT}]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>

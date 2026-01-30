@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="String Monitoring" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d3a95b6b-3448-4c7e-b3de-b18476410fa4">
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<parameter name="REPORT_TITLE" class="java.lang.String"/>
+	<parameter name="SMB_NAME" class="java.lang.String"/>
+	<parameter name="STRING_NAME" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="customerLogoPath" class="java.lang.String"/>
+	<field name="customerName" class="java.lang.String"/>
+	<field name="siteName" class="java.lang.String"/>
+	<field name="ticketCode" class="java.lang.String"/>
+	<field name="displayName" class="java.lang.String"/>
+	<field name="smbSequence" class="java.lang.Integer"/>
+	<field name="sm_Current" class="java.lang.String"/>
+	<field name="sm_Voltage" class="java.lang.String"/>
+	<field name="sm_Fuse" class="java.lang.String"/>
+	<field name="dLogDate" class="java.lang.String"/>
+	<field name="remarks" class="java.lang.String"/>
+	<field name="stringSequence" class="java.lang.Integer"/>
+	<group name="Group1">
+		<groupExpression><![CDATA[$F{displayName}]]></groupExpression>
+		<groupHeader>
+			<band height="30">
+				<textField>
+					<reportElement isPrintRepeatedValues="false" mode="Opaque" x="-3" y="2" width="558" height="28" forecolor="#FFFFFF" backcolor="#787171" uuid="ae7e5822-5ede-4dad-ae81-61fa82dde6ab"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="18"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{displayName}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="ListGroup">
+		<groupExpression><![CDATA[$F{smbSequence}]]></groupExpression>
+		<groupHeader>
+			<band height="61">
+				<rectangle>
+					<reportElement x="-2" y="31" width="557" height="29" uuid="cf75deb1-f457-4d4d-878b-fdc68357de8a"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="86" y="34" width="67" height="22" uuid="180f9f53-f635-4852-a576-7d58a79c8a61"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="12"/>
+					</textElement>
+					<text><![CDATA[Current]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="168" y="35" width="90" height="21" uuid="49e10e23-4ce0-42c9-b4e8-0bc551308958"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="12"/>
+					</textElement>
+					<text><![CDATA[Voltage]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="268" y="34" width="62" height="21" uuid="37a26cee-f29c-4d03-9147-a0863d160427"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="12"/>
+					</textElement>
+					<text><![CDATA[Fuse]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="339" y="35" width="65" height="25" uuid="fe869fb9-b23d-41f7-9e36-e51fd7b841fb"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="12"/>
+					</textElement>
+					<text><![CDATA[Date]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="407" y="34" width="65" height="23" uuid="700af1d5-824d-4643-82f2-4e37ff8ff4b4"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="12"/>
+					</textElement>
+					<text><![CDATA[Remarks]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="34" width="81" height="26" uuid="11ccfaaf-ad3e-45ab-88bc-00221017f41e"/>
+					<textElement textAlignment="Left" verticalAlignment="Middle"/>
+					<text><![CDATA[String Name]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="-2" y="0" width="557" height="31" uuid="60ead701-77e9-4d1b-b17e-384d48c3f259"/>
+				</rectangle>
+				<textField>
+					<reportElement mode="Opaque" x="-2" y="0" width="557" height="30" forecolor="#FFFFFF" backcolor="#4F4D4D" uuid="d62fce4e-a9de-42a6-93bc-0e34b1dee979"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="16"/>
+					</textElement>
+					<textFieldExpression><![CDATA["SMB - "+$F{smbSequence}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="714" splitType="Immediate">
+			<image scaleImage="FillFrame">
+				<reportElement x="180" y="270" width="201" height="41" uuid="0fcdc093-07ca-48a9-b10b-dcf2a4bfbe11"/>
+				<imageExpression><![CDATA[$F{customerLogoPath}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="0" y="320" width="560" height="30" uuid="9f4c0523-6daa-486c-9480-e1c5c76e4981"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{customerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="360" width="560" height="30" uuid="cb088151-15f0-4ee1-a877-0d031d377266"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="400" width="560" height="30" uuid="3387918f-423d-4fcd-9153-6f1b19f46cde"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{REPORT_TITLE}]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="703" width="529" height="1" uuid="f48c072a-636b-4606-8ee8-7329618599e2"/>
+			</break>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band splitType="Stretch"/>
+		<band height="31">
+			<rectangle>
+				<reportElement x="-2" y="0" width="557" height="31" uuid="9b3796c4-09d6-4968-b7a7-0ee905563f55"/>
+			</rectangle>
+			<textField>
+				<reportElement x="84" y="1" width="67" height="30" uuid="44a719e1-cbd4-4424-aedb-4e04e9d4188b"/>
+				<textFieldExpression><![CDATA[$F{sm_Current}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="1" width="91" height="30" uuid="ed57cf8f-5641-4cc6-83a9-383c09e4e029"/>
+				<textFieldExpression><![CDATA[$F{sm_Voltage}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="268" y="1" width="62" height="30" uuid="993ae106-c597-418c-8ed9-69a2ae626f55"/>
+				<textFieldExpression><![CDATA[$F{sm_Fuse}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="337" y="5" width="65" height="25" uuid="3efd1a52-36c4-4b61-be1b-c3418b3aff16"/>
+				<textFieldExpression><![CDATA[$F{dLogDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="407" y="1" width="148" height="30" uuid="7bf7825a-8279-4504-8d4f-c2d6a143b7a8"/>
+				<textFieldExpression><![CDATA[$F{remarks}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="4" width="100" height="25" uuid="665ad968-1ac7-4e28-a02b-340563ac38e6"/>
+				<textFieldExpression><![CDATA["String - "+$F{stringSequence}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="27" splitType="Stretch">
+			<textField>
+				<reportElement x="460" y="1" width="96" height="21" uuid="df920786-55e4-4b00-a887-1c42ac02432d"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ticketCode}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="261" y="1" width="11" height="23" uuid="4c6e080d-5cd0-4402-9953-cf02f61fa7be"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false" isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText" x="4" y="1" width="168" height="20" uuid="0045c3fc-96c2-47cd-a7ef-ac74d38e3a90"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[© HummerSoft Technologies.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="0" width="11" height="24" uuid="9a151508-1d21-445c-885f-58b02a931cd3"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[of]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="280" y="0" width="9" height="24" uuid="667e2fcf-655c-48a7-9e8e-7dfb84ff84d6"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

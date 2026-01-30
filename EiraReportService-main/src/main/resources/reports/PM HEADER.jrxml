@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PM HEADER" pageWidth="595" pageHeight="842" whenNoDataType="NoPages" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4f8419af-47f2-4a52-b142-b0f268d1d824">
+	<parameter name="COMPANY_NAME" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="totalTask" class="java.lang.Long"/>
+	<field name="checkCount" class="java.lang.Integer"/>
+	<field name="healthcheck" class="java.lang.String"/>
+	<field name="remarks" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="239" splitType="Stretch">
+			<rectangle>
+				<reportElement x="1" y="-1" width="559" height="31" backcolor="#19415E" uuid="8661904c-659d-4e89-a227-8d744e9dcf3b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="1" y="30" width="559" height="174" uuid="9e3406e9-c19d-4cf1-8ef5-f6552e70dbb4"/>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="2" y="0" width="555" height="29" forecolor="#FFFFFF" backcolor="#19415E" uuid="2aa69482-2e6e-4db5-b1be-9d5f78366400">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Task Summary]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="40" width="88" height="20" uuid="4311fa12-033b-4217-8f2f-50eebf0d596f"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Overall Task ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="70" width="102" height="20" uuid="e037d7cf-b986-429b-9ccf-6f8abd748e83"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Defect identified]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="100" width="111" height="20" uuid="e47e533f-d5cc-43ca-9878-95391e2fb60c"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Plant Health Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="130" width="88" height="20" uuid="1e0c91fd-418c-4919-b266-cd77138496da"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remarks]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="40" width="16" height="20" uuid="0c8472b9-c04b-4cc9-94ae-2703ddc7c873"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="70" width="14" height="20" uuid="984557ac-ed35-48f8-bab7-070ed2d3b3fd"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="132" y="100" width="16" height="20" uuid="6977d17a-969e-4a09-ac5e-6613a29df894"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="127" width="16" height="20" uuid="e2dc4bd3-e112-4e84-a3f2-77458217e30f"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="169" y="40" width="100" height="20" uuid="62581a39-ed60-442c-88ba-1e4384f31446"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{totalTask}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="169" y="70" width="120" height="20" uuid="bf606243-36f9-4b67-ab66-d76dcc98e6b0"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{checkCount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="169" y="101" width="120" height="19" uuid="d6268e07-718c-4cc8-a63d-4647b62b3fba"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{healthcheck}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="169" y="131" width="350" height="69" uuid="5b08a5db-798e-4287-8bb8-4990b86abc15"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{remarks}]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement x="0" y="180" width="99" height="1" uuid="e19e440a-974b-46f5-be13-46d80b68be0d"/>
+			</break>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

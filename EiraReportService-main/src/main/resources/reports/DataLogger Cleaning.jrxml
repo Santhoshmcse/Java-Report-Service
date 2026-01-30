@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" whenNoDataType="NoPages" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5af0669a-7f61-4b67-8090-bda779300bb7">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="ticketId" class="java.lang.Integer"/>
+	<parameter name="REPORT_TITLE" class="java.lang.String"/>
+	<parameter name="STATUS_DETAIL" class="java.lang.String"/>
+	<parameter name="ENERGY_METER_BEFORE_LOG_DATE" class="java.lang.String"/>
+	<parameter name="SERVICE_REPORT_BEFORE_LOG_DATE" class="java.lang.String"/>
+	<parameter name="ENERGY_METER_SERVER_PATH" class="java.lang.String"/>
+	<parameter name="SERVICE_REPORT_SERVER_PATH" class="java.lang.String"/>
+	<parameter name="AREACOVERED_REPORT_SERVER_PATH" class="java.lang.String"/>
+	<parameter name="REPORT_PICTURE_SERVER_PATH" class="java.lang.String"/>
+	<parameter name="REPORT_LOG_DATE" class="java.lang.String"/>
+	<parameter name="BEFORE_DATE" class="java.lang.String"/>
+	<parameter name="AFTER_DATE" class="java.lang.String"/>
+	<parameter name="COMPANY_NAME" class="java.lang.String"/>
+	<parameter name="ENERGY_SUBREPORT" class="net.sf.jasperreports.engine.JasperReport"/>
+	<parameter name="ENERGY_SUBREPORT_DATA_SOURCE" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<parameter name="FORMATTED_DATE" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="beforePictureServerPath" class="java.lang.String"/>
+	<field name="afterPictureServerPath" class="java.lang.String"/>
+	<field name="siteId" class="java.math.BigInteger"/>
+	<field name="ticketDetail" class="java.lang.String"/>
+	<field name="customerId" class="java.lang.Integer"/>
+	<field name="siteName" class="java.lang.String"/>
+	<field name="customerName" class="java.lang.String"/>
+	<field name="installationCapacity" class="java.math.BigDecimal"/>
+	<field name="sequence" class="java.lang.String"/>
+	<field name="servicemeterserverPath" class="java.lang.String"/>
+	<field name="energymeterserverPath" class="java.lang.String"/>
+	<field name="categoryName" class="java.lang.String"/>
+	<field name="customerLogoPath" class="java.lang.String"/>
+	<field name="ticketCode" class="java.lang.String"/>
+	<field name="beforePicturedLogdate" class="java.lang.String"/>
+	<field name="afterPicturedLogdate" class="java.lang.String"/>
+	<field name="groupName" class="java.lang.String"/>
+	<field name="listName" class="java.lang.String"/>
+	<field name="statusName" class="java.lang.String"/>
+	<field name="beforePictureStatus" class="java.lang.Integer"/>
+	<field name="afterPictureStatus" class="java.lang.String"/>
+	<field name="firstName" class="java.lang.String"/>
+	<field name="ticketTypeName" class="java.lang.String"/>
+	<field name="siteReference" class="java.lang.String"/>
+	<variable name="FirstNonNullEnergyMeterPath" class="java.lang.String">
+		<variableExpression><![CDATA[($F{energymeterserverPath} != null && $V{FirstNonNullEnergyMeterPath} == null) ? $F{energymeterserverPath} : $V{FirstNonNullEnergyMeterPath}]]></variableExpression>
+	</variable>
+	<variable name="FirstNonNullServiceReportPath" class="java.lang.String">
+		<variableExpression><![CDATA[($F{servicemeterserverPath} != null && $V{FirstNonNullServiceReportPath} == null) ? $F{servicemeterserverPath} : $V{FirstNonNullServiceReportPath}]]></variableExpression>
+	</variable>
+	<variable name="lastGroupName" class="java.lang.String" resetType="None">
+		<variableExpression><![CDATA[$F{groupName}]]></variableExpression>
+		<initialValueExpression><![CDATA[null]]></initialValueExpression>
+	</variable>
+	<variable name="categoryName" class="java.lang.String">
+		<variableExpression><![CDATA[$F{ticketCode}]]></variableExpression>
+	</variable>
+	<variable name="description" class="java.lang.String">
+		<variableExpression><![CDATA["Ticket has been finished - " + $F{firstName}]]></variableExpression>
+	</variable>
+	<variable name="formattedBeforeDate" class="java.lang.String">
+		<variableExpression><![CDATA[new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse($F{beforePicturedLogdate}))]]></variableExpression>
+	</variable>
+	<variable name="formattedAfterDate" class="java.lang.String">
+		<variableExpression><![CDATA[new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse($F{afterPicturedLogdate}))]]></variableExpression>
+	</variable>
+	<group name="Group1">
+		<groupExpression><![CDATA[$F{groupName}]]></groupExpression>
+		<groupHeader>
+			<band height="29">
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				<textField>
+					<reportElement mode="Opaque" x="0" y="0" width="556" height="25" isRemoveLineWhenBlank="true" printWhenGroupChanges="Group1" forecolor="#FCF7F7" backcolor="#19415E" uuid="9b54b954-0048-4635-bee6-842c53d63793">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<printWhenExpression><![CDATA[$F{groupName}!=null&&$F{afterPictureServerPath}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{groupName}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<title>
+		<band height="714" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="173" y="123" width="200" height="40" uuid="d5b3fe06-a72e-44f0-977b-5370ae634c9e"/>
+				<imageExpression><![CDATA[$F{customerLogoPath}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="287" y="364" width="193" height="30" uuid="e695f673-eb8f-4068-b3a2-8a092952c3c5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="287" y="248" width="192" height="30" forecolor="#05010F" uuid="6f8935d0-810d-4276-bf03-02c620ec1f1c"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="20" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{customerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="179" width="552" height="30" uuid="4b1fada2-f0ba-4bb3-9eca-2f02220c7d82"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{REPORT_TITLE}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="121" y="287" width="141" height="31" uuid="1886b641-d45a-4861-a102-b00ec04d04b9"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Capacity]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="288" y="287" width="191" height="30" uuid="892f4548-602d-4884-80c0-0bafaafbd493"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{installationCapacity}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText" x="267" y="287" width="10" height="30" uuid="a303b8be-c62f-4b89-b612-09eaf88f9388"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="13" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="268" y="326" width="10" height="30" uuid="96eef6e1-09a4-4132-9b4e-640ab0845331"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="13" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="121" y="324" width="141" height="31" uuid="9946057f-6c6b-40b3-b12d-df699b7b7a71"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Site ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="268" y="364" width="10" height="30" uuid="79496ee0-c326-4e22-91b6-6101833c4d84"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="13" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="122" y="364" width="139" height="31" uuid="967dd2c0-00a5-4fa7-a7de-7276fb599a25"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Site Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="268" y="251" width="10" height="30" uuid="954f60de-a616-4dbe-9cae-d89797030f2a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="13" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="251" width="143" height="30" uuid="f2c10043-f62e-40be-a216-96dee3e45973"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Customer Name]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="712" width="171" height="1" uuid="23e49eef-81e2-4ed3-93e0-e64c37bcb9e7"/>
+			</break>
+			<rectangle>
+				<reportElement x="31" y="475" width="489" height="90" uuid="8ef739a0-4a94-4cb2-b25f-4598d46ac8f2"/>
+			</rectangle>
+			<line>
+				<reportElement x="31" y="520" width="490" height="1" uuid="6e942dc7-02df-48c1-81cb-5b1b87abe102"/>
+			</line>
+			<line>
+				<reportElement x="173" y="475" width="1" height="90" uuid="ac040e01-6c0e-4b94-8255-0611a9acd384"/>
+			</line>
+			<line>
+				<reportElement x="373" y="475" width="1" height="90" uuid="2b54719e-a16a-4ef9-b55f-14e4f5547754"/>
+			</line>
+			<staticText>
+				<reportElement x="33" y="479" width="141" height="41" uuid="cf522ac7-50b5-46ef-9eb8-42fd8341b107"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<text><![CDATA[Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="174" y="479" width="199" height="41" uuid="c6968790-7e9b-4e13-a39e-b3ba5f3194ec"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<text><![CDATA[Assigned By]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="374" y="479" width="148" height="41" uuid="9206878c-1eed-415f-b277-c06e25d8d880"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<text><![CDATA[Finished On]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="173" y="522" width="201" height="40" uuid="6200d76c-f80f-4bd5-b0de-766727f41f92"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{firstName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="33" y="525" width="141" height="40" uuid="acd681cc-7b7a-4687-93cd-72320c5a243e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Ticket has been finished - " + ($F{firstName} != null ? $F{firstName} : "No Name Provided")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="288" y="326" width="191" height="30" uuid="c5a78300-655b-416f-b26b-6af2c6081941"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteReference}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="374" y="522" width="146" height="40" uuid="fefa50af-758d-400d-9601-7abedc6ad139"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{FORMATTED_DATE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="25">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[!$V{PAGE_NUMBER}.equals(1)]]></printWhenExpression>
+			<textField>
+				<reportElement x="0" y="1" width="210" height="22" uuid="140ecaa6-e399-4c16-967c-14d1362f9f44"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ticketTypeName}+ " - "+$F{categoryName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="454" y="3" width="100" height="17" uuid="f3c81a71-943b-40ca-8159-9d1c4e3a1873"/>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteReference}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="23">
+			<printWhenExpression><![CDATA[$F{listName}!=null]]></printWhenExpression>
+			<textField>
+				<reportElement mode="Opaque" x="0" y="-2" width="556" height="25" isRemoveLineWhenBlank="true" forecolor="#F5F0F0" backcolor="#375575" uuid="9f16ea5a-141d-4a54-b3c6-aaebc716ee08">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{listName}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{listName}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="338" splitType="Immediate">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<image scaleImage="FillFrame" rotation="None" hAlign="Center" vAlign="Bottom">
+				<reportElement x="2" y="19" width="266" height="300" isRemoveLineWhenBlank="true" printWhenGroupChanges="Group1" uuid="3696bb5b-4011-46f4-a705-80ecea9da6df">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<printWhenExpression><![CDATA[$F{beforePictureServerPath}!=null]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{beforePictureServerPath}]]></imageExpression>
+			</image>
+			<image scaleImage="FillFrame" rotation="None" hAlign="Center" vAlign="Bottom">
+				<reportElement x="292" y="19" width="260" height="300" isRemoveLineWhenBlank="true" uuid="e65fe67e-2f8e-481f-ab70-a947600004fa">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{afterPictureServerPath}!=null]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{afterPictureServerPath}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement stretchType="ElementGroupHeight" x="290" y="3" width="76" height="14" uuid="398f80e1-4d51-4c63-be71-f9e424dd429b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{sequence}!=null&&$F{afterPictureServerPath}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman Cyr" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[After Picture]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="ElementGroupHeight" x="64" y="5" width="20" height="12" uuid="64193fa9-01d4-40f0-9403-78613839665b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{sequence}!=null&&$F{afterPictureServerPath}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Top">
+					<font fontName="Times New Roman Cyr" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sequence}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement stretchType="ElementGroupHeight" x="1" y="3" width="83" height="14" uuid="ca4510a8-51b8-4d07-abf8-e52fcba9ce70">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{sequence}!=null&&$F{afterPictureServerPath}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Before Picture]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement stretchType="ElementGroupHeight" x="348" y="3" width="35" height="14" uuid="c13d82d9-f9af-46d6-8584-5a7683ad5a64">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$F{sequence}!=null&&$F{afterPictureServerPath}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Top">
+					<font fontName="Times New Roman Cyr" size="10" isBold="false" isItalic="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sequence}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="320" width="188" height="14" uuid="42f90e1f-6510-47b8-bbe8-32153a72182a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman Cyr"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{formattedBeforeDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="290" y="320" width="210" height="14" uuid="e240fe69-7706-451a-85d1-1f38e95f2159">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman Cyr"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{formattedAfterDate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="28" splitType="Stretch">
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="263" y="1" width="11" height="23" uuid="ad9cefe0-6a4d-4d79-8ce8-032da33d0b0d"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false" isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="270" y="0" width="11" height="24" uuid="c8b48d3b-a36c-44b1-9380-2cb1884a828f"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[of]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="280" y="0" width="9" height="24" uuid="cabb290a-ac07-46ef-a0ac-e14388f2bede"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="1" width="96" height="21" uuid="64731f4a-d8c9-42b9-af2b-c72b02baacc6"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ticketCode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="3" width="160" height="19" uuid="584f01dc-4697-488e-a409-83630fa7806b"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{COMPANY_NAME}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

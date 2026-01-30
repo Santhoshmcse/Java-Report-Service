@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="JMR Report" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a6ee49ee-79f9-481c-844a-48230e2dd954">
+	<parameter name="REPORT_TITLE" class="java.lang.String"/>
+	<parameter name="LMR_READING" class="java.lang.String"/>
+	<parameter name="CREATION_DATE" class="java.lang.String"/>
+	<parameter name="NET_GENERATION" class="java.lang.String"/>
+	<parameter name="COMPANY_NAME" class="java.lang.String"/>
+	<parameter name="SLOG_DATE" class="java.lang.String"/>
+	<parameter name="REPORT_TIMESTAMP" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="customerLogoPath" class="java.lang.String"/>
+	<field name="siteName" class="java.lang.String"/>
+	<field name="customerName" class="java.lang.String"/>
+	<field name="address" class="java.lang.String"/>
+	<field name="capacity" class="java.lang.String"/>
+	<field name="emSerialNo" class="java.lang.String"/>
+	<field name="lmrTimestamp" class="java.lang.String"/>
+	<field name="cmReading" class="java.lang.String"/>
+	<field name="plantDownTime" class="java.lang.String"/>
+	<field name="imagePath" class="java.lang.String"/>
+	<field name="sLogDate" class="java.lang.String"/>
+	<field name="customerSignature" class="java.lang.String"/>
+	<field name="siteSignature" class="java.lang.String"/>
+	<field name="ticketCode" class="java.lang.String"/>
+	<field name="reportImagePath" class="java.lang.String"/>
+	<field name="reportTimeStamp" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="802" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="179" y="297" width="201" height="61" uuid="6235949e-a698-4eb9-8586-fc690d7b1ff8"/>
+				<imageExpression><![CDATA[$F{customerLogoPath}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="3" y="447" width="550" height="30" uuid="be65d892-aede-4e7c-9e0d-107cd723bb39"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="407" width="550" height="30" uuid="8b34d25c-5f5d-4132-8cbf-da4f0c97e4a7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{customerName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="4" y="367" width="551" height="30" uuid="da85b3f7-1ccb-4514-bae4-be1967ce4df9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="20"/>
+				</textElement>
+				<text><![CDATA[Joint Energy Meter Reading Report]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band splitType="Stretch"/>
+		<band height="650">
+			<staticText>
+				<reportElement mode="Opaque" x="-2" y="6" width="560" height="30" forecolor="#FFFFFF" backcolor="#787171" uuid="fe8a37d4-5693-4030-b6f2-c42bbc867b91"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[JOINT ENERGY METER READING (JMR)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="16" y="49" width="62" height="18" uuid="2d248be3-fe81-4cba-bc32-d6bc7a954d25"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Site Name]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="90" y="49" width="130" height="18" uuid="a4ade964-7cfe-4345-af92-8d290121ad52"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="16" y="77" width="62" height="17" uuid="0203bf64-64f9-450f-bf46-9760f9c94910"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Location]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="88" y="77" width="426" height="17" uuid="ac8229b0-b338-4c36-962e-0fd11b8faa80"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="16" y="107" width="62" height="17" uuid="a87d9c09-b066-4703-a318-294bb2f9478d"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Capacity]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="88" y="107" width="100" height="17" uuid="290cf3ac-e8f4-4441-a590-671441209a2b"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{capacity}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="278" y="103" width="70" height="18" uuid="65eafb81-a903-474e-a19b-b643e8434d37"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Em Serial No]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="363" y="103" width="120" height="17" uuid="67c7f4e1-9b51-4a1c-90cf-b7cf4d7650f0"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{emSerialNo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText" x="78" y="49" width="12" height="18" uuid="4e19e453-9c90-474b-99b5-0496305bf842"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="78" y="77" width="12" height="17" uuid="538b34bb-7058-42de-90fc-dbf1a2f26fb1"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="78" y="107" width="12" height="17" uuid="7f75a4f0-0fab-49f0-8fc1-6a232cef4f6a"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="352" y="103" width="12" height="17" uuid="13b8e21d-c7a3-418f-958b-dd39b9ccf485"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="251" y="197" width="131" height="20" uuid="30879b77-8b8c-4cee-b906-8f6d55e7b217"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{LMR_READING}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="39" y="196" width="198" height="22" uuid="84c46bc4-3fdd-4d78-9a64-6778ad096dc4"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Last Month Reading (A)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="251" y="261" width="143" height="21" uuid="6250f96f-1cec-443a-bf57-70f6035bd51a"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cmReading}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="251" y="296" width="151" height="22" uuid="27980fab-0afc-4278-b6ff-ec134ec16d40"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NET_GENERATION}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText" x="239" y="166" width="12" height="17" uuid="c07327a2-058c-4ad8-b270-0cd805ad3da7"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="251" y="326" width="151" height="20" uuid="03d0139c-7d35-4c28-a6e8-4252ba8500a3"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{plantDownTime}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText" x="237" y="199" width="12" height="17" uuid="ba399714-d7de-4154-b3ff-19fd4e11a959"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="251" y="226" width="151" height="22" uuid="a5b06c1c-a725-4b34-ae17-9c81ef218206"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CREATION_DATE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="251" y="166" width="131" height="20" uuid="5451393b-99a6-4de2-a32b-bde15e060c1e"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lmrTimestamp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="39" y="226" width="198" height="22" uuid="300c431f-a365-488c-83bf-18feff3f8c21"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Current Month Reading Date & Time ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="239" y="299" width="12" height="17" uuid="16816df1-f469-4afc-a401-de559377a8cb"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="38" y="326" width="201" height="21" uuid="45ca6b54-3221-4614-b27b-6231a2ca8e6a"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Plant Downtime]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="36" y="296" width="202" height="22" uuid="a44ffa93-29a5-4047-91e9-2b571f198e90"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Net Generation (B-A)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="239" y="263" width="12" height="17" uuid="8b0b5e3a-fbd9-4738-a132-0fa31972779b"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="237" y="326" width="12" height="17" uuid="2d60f6ad-eeb7-4eb2-8bac-9a18e2833350"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement x="76" y="366" width="401" height="255" uuid="2e5b4d0b-4e86-42b5-8d39-7456e73a0d40"/>
+				<imageExpression><![CDATA[$F{imagePath}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="37" y="166" width="200" height="20" uuid="052bf7b8-7b15-4885-839d-dc04a3bff894"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Last Month Reading Date & Time]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText" x="237" y="226" width="12" height="17" uuid="38477401-6654-4a5c-9435-2e328c2f3e39"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="1" y="146" width="557" height="1" uuid="43e67eee-bebb-4a8d-9743-0fb7fda355be"/>
+			</line>
+			<staticText>
+				<reportElement x="37" y="261" width="201" height="21" uuid="4600fd11-a652-4992-bbb9-6a5bac339e85"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<text><![CDATA[Current Month Reading (B)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="260" y="627" width="220" height="20" uuid="5882eb06-75aa-4520-b95f-982c718e0c7d"/>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SLOG_DATE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<lastPageFooter>
+		<band height="39">
+			<textField>
+				<reportElement x="366" y="11" width="189" height="22" uuid="e1cd9abf-4cb7-4ebe-a5e9-383ba5d9781f"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ticketCode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-12" y="21" width="251" height="12" uuid="c0f94448-9f6d-43f7-b8a2-5352ed65ec7c"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{COMPANY_NAME}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="266" y="8" width="15" height="29" uuid="b31dea26-f969-438c-ae58-edd102061f0d"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false" isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="278" y="7" width="15" height="30" uuid="d0f3732e-1733-4880-98f2-0c87fa9b0e82"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[of]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="288" y="7" width="13" height="30" uuid="ed1315eb-1ea8-483b-b6cc-deed0edee20f"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+	<summary>
+		<band height="802" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{reportImagePath}!=null]]></printWhenExpression>
+			<textField>
+				<reportElement x="-2" y="488" width="251" height="16" uuid="91b2689e-dafa-402c-b8a3-aa11125a326d"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{customerSignature}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="328" y="488" width="223" height="16" uuid="6724860a-8f46-4a35-91aa-f333a465157c"/>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{siteSignature}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="376" y="780" width="179" height="22" uuid="ff878ee3-9e0b-448b-9281-a5050417befa"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ticketCode}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement key="textField" x="269" y="769" width="15" height="29" uuid="2136c07a-b054-47c0-bd50-d3f7b83eb09e"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false" isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="281" y="768" width="15" height="30" uuid="e7365254-f55d-4083-82ea-3e97fe028495"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9" isBold="false" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[of]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="291" y="768" width="13" height="30" uuid="cd4a1606-3f07-4f0d-9161-3a18d3b107d6"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="-2" y="790" width="241" height="12" uuid="f2c5b4d6-810c-4fac-a15a-9646ac1d438c"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{COMPANY_NAME}]]></textFieldExpression>
+			</textField>
+			<image scaleImage="FillFrame">
+				<reportElement x="80" y="57" width="401" height="255" uuid="ecb2b18e-a015-47ed-83e1-aa86c868f4cc">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA[$F{reportImagePath}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement mode="Opaque" x="-1" y="12" width="560" height="30" forecolor="#FFFFFF" backcolor="#787171" uuid="b5233cdc-206d-485b-bdd4-c29439137a8b">
+					<printWhenExpression><![CDATA[$F{reportImagePath}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="18"/>
+				</textElement>
+				<text><![CDATA[Service Report]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="200" y="321" width="280" height="20" uuid="3b9f7ba9-241f-433e-b3dc-b6cdb1c062ed"/>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{REPORT_TIMESTAMP}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

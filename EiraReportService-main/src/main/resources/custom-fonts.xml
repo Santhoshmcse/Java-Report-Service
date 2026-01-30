@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>	
+	  <fontFamily name="Times New Roman">
+        <normal><![CDATA[fonts/Times New Roman.ttf]]></normal>
+        <bold><![CDATA[fonts/Times New Roman.ttf]]></bold>
+        <italic><![CDATA[fonts/Times New Roman.ttf]]></italic>
+        <boldItalic><![CDATA[fonts/Times New Roman.ttf]]></boldItalic>
+        <pdfEncoding><![CDATA[Cp1252]]></pdfEncoding>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+        <pdfFontName><![CDATA[Times New Roman]]></pdfFontName>
+    </fontFamily>
+	
+
+</fontFamilies>

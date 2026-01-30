@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PM Report" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4818c0bc-c457-4fb0-83ab-e69e1472a786">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="sequence" class="java.lang.String"/>
+	<field name="task" class="java.lang.String"/>
+	<field name="checkStatus" class="java.lang.String"/>
+	<field name="serialNumber" class="java.lang.String"/>
+	<field name="stringNumber" class="java.lang.String"/>
+	<field name="pmRemarks" class="java.lang.String"/>
+	<field name="imagePath" class="java.lang.String"/>
+	<field name="formattedSLogDate" class="java.lang.String"/>
+	<field name="groupName" class="java.lang.String"/>
+	<field name="checkCount" class="java.lang.Integer"/>
+	<field name="pmId" class="java.lang.String"/>
+	<field name="taskCount" class="java.lang.Long"/>
+	<field name="othersRemarks" class="java.lang.String"/>
+	<field name="categoryName" class="java.lang.String"/>
+	<field name="sDate" class="java.lang.String"/>
+	<variable name="SERIALNUMBER_VALUE" class="java.lang.String">
+		<variableExpression><![CDATA[($F{checkStatus}.equals("Yes") ? $F{serialNumber} : "")]]></variableExpression>
+	</variable>
+	<variable name="STRINGNUMBER_VALUE" class="java.lang.String">
+		<variableExpression><![CDATA[($F{checkStatus}.equals("Yes") ? $F{stringNumber} : "")]]></variableExpression>
+	</variable>
+	<variable name="GROUPTASK" class="java.lang.Integer" resetType="Group" resetGroup="Group1" calculation="Count">
+		<variableExpression><![CDATA[$F{task}]]></variableExpression>
+	</variable>
+	<variable name="GROUPCHECKCOUNT" class="java.math.BigDecimal" resetType="Group" resetGroup="Group1" calculation="Sum">
+		<variableExpression><![CDATA[$F{checkCount}]]></variableExpression>
+	</variable>
+	<variable name="SERIALNUMBER_TEXT" class="java.lang.String">
+		<variableExpression><![CDATA[($F{checkStatus}.equals("Yes") ? "Serial Number" : "")]]></variableExpression>
+	</variable>
+	<variable name="STRINGNUMBER_TEXT" class="java.lang.String">
+		<variableExpression><![CDATA[$F{checkStatus}.equals("Yes") ? "String Number" : ""]]></variableExpression>
+	</variable>
+	<variable name="FormattedSDate" class="java.lang.String">
+		<variableExpression><![CDATA[new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse($F{sDate}))]]></variableExpression>
+	</variable>
+	<group name="Group1">
+		<groupExpression><![CDATA[$F{groupName}]]></groupExpression>
+		<groupHeader>
+			<band height="31">
+				<textField>
+					<reportElement mode="Opaque" x="0" y="0" width="556" height="30" printWhenGroupChanges="Group1" forecolor="#FCF7F7" backcolor="#19415E" uuid="e6c1dd98-277c-4dd0-978c-ee2acf50cba8">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<printWhenExpression><![CDATA[$F{groupName}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Times New Roman Cyr" size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{groupName}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="37">
+				<rectangle>
+					<reportElement x="2" y="1" width="551" height="30" backcolor="#19415E" uuid="e5a6b3c4-6a4f-4059-ae02-c988059c0832">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+				</rectangle>
+				<staticText>
+					<reportElement mode="Opaque" x="11" y="11" width="69" height="20" forecolor="#FFFFFF" backcolor="#19415E" uuid="d2f0372a-b0af-42fe-a992-4b0b352aa8d0"/>
+					<textElement>
+						<font fontName="Times New Roman Cyr" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total Task :]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="80" y="11" width="36" height="20" forecolor="#FCFCFC" backcolor="#19415E" uuid="e482910a-865d-40b3-8fe4-c156da073224"/>
+					<textElement>
+						<font fontName="Times New Roman Cyr" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{GROUPTASK}]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Auto" pattern="#,##0.00%">
+					<reportElement x="460" y="8" width="66" height="21" forecolor="#FFFFFF" backcolor="#19415E" uuid="b4c8c1b4-8199-4a14-a769-44887a507489"/>
+					<textElement verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new Double(($V{GROUPCHECKCOUNT}.doubleValue())/$V{GROUPTASK}.doubleValue())]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="210" y="11" width="90" height="20" forecolor="#FFFFFF" backcolor="#19415E" uuid="c79c5f33-54c3-4460-be50-051662562083"/>
+					<textElement>
+						<font fontName="Times New Roman Cyr" size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Completed Task :]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="300" y="11" width="40" height="20" forecolor="#F7F7F7" backcolor="#19415E" uuid="57cacf2d-e382-4036-80fe-1b2cd9064110"/>
+					<textElement>
+						<font fontName="Times New Roman Cyr" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{GROUPCHECKCOUNT}]]></textFieldExpression>
+				</textField>
+				<break>
+					<reportElement x="0" y="36" width="140" height="1" uuid="8a2f3e8f-fe89-4e22-b0d9-5830e444de94">
+						<printWhenExpression><![CDATA[(Long.parseLong($F{pmId}) == $F{taskCount}) ? false : true]]></printWhenExpression>
+					</reportElement>
+				</break>
+				<staticText>
+					<reportElement x="384" y="11" width="76" height="20" forecolor="#FFFFFF" backcolor="#19415E" uuid="b1abf227-2bb3-4b2f-a67a-d93873f53a8d"/>
+					<textElement>
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Percentage :]]></text>
+				</staticText>
+			</band>
+		</groupFooter>
+	</group>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="246" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="4" width="90" height="20" uuid="d42be21d-874a-4eb2-b12f-3fa0d0bf2809"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Check Point :  #]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="90" y="4" width="100" height="20" uuid="fd87bcac-ade6-4fe9-9587-a7f8888c7c50"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sequence}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="27" width="550" height="30" uuid="9c96dab8-38fa-42e8-b460-e903f5536bfc"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{task}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="58" width="98" height="20" uuid="af287721-2199-4531-81aa-1673444bcdce"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Defect identified     ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="53" width="100" height="30" uuid="968d1746-7373-4a1e-8fa7-743e8ca6b907"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{checkStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="90" width="190" height="20" uuid="b7203483-0d4a-43d7-bbda-b7d5025da451"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{SERIALNUMBER_VALUE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="90" width="98" height="20" uuid="51d0ce99-721f-4268-980c-6ea1fa7fee27"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{SERIALNUMBER_TEXT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="120" width="98" height="20" uuid="b0080e9d-9db9-446d-923b-372cf4977059"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{STRINGNUMBER_TEXT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="120" width="190" height="20" uuid="6a51e073-4baa-4b3e-864e-7e7d43fd0fbc"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{STRINGNUMBER_VALUE}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="150" width="98" height="20" uuid="490cef74-3f26-44f9-bee6-8452349c281d"/>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remarks]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="150" width="230" height="80" uuid="80ece992-7333-4f3a-8d82-6d1be9387269">
+					<printWhenExpression><![CDATA[!"Others".equals($F{pmRemarks})]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pmRemarks}]]></textFieldExpression>
+			</textField>
+			<image scaleImage="FillFrame">
+				<reportElement x="335" y="50" width="211" height="161" uuid="e379430b-cd4f-45f9-b780-d7e6c420357e"/>
+				<imageExpression><![CDATA[$F{imagePath}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="100" y="150" width="230" height="79" uuid="56952027-9af7-4a25-98ca-a4e995840969">
+					<printWhenExpression><![CDATA[$F{othersRemarks}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman Cyr" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{othersRemarks}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="214" width="100" height="14" uuid="09a1c93d-2c55-4240-887a-7dd303909fda">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman Cyr"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{FormattedSDate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

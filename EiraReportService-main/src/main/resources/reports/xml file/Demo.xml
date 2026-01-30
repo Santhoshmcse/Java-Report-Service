@@ -1,0 +1,2539 @@
+<?xml version="1.0"?>
+<mii xmlns="http://api.sspcdn.com/mii" targetNamespace="http://api.sspcdn.com/mii" version="2.0">
+  <datalogger>
+    <configuration xmlns="http://api.sspcdn.com/mii/datalogger/configuration">
+      <uuid/>
+      <next-scheduled-transfer>2024-04-16T09:10:00Z</next-scheduled-transfer>
+      <devices>
+        <device id="inverter-29" type="inverter">
+          <uid>29</uid>
+          <name>SG250HX-IN(COM5-010)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282928</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-27" type="inverter">
+          <uid>27</uid>
+          <name>SG250HX-IN(COM5-027)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040144</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-8" type="inverter">
+          <uid>8</uid>
+          <name>SG250HX-IN(COM6-008)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282902</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-31" type="inverter">
+          <uid>31</uid>
+          <name>SG250HX-IN(COM5-007)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040131</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-21" type="inverter">
+          <uid>21</uid>
+          <name>SG250HX-IN(COM5-021)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040053</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-10" type="inverter">
+          <uid>10</uid>
+          <name>SG250HX-IN(COM6-010)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282928</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-24" type="inverter">
+          <uid>24</uid>
+          <name>SG250HX-IN(COM5-024)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040123</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-34" type="inverter">
+          <uid>34</uid>
+          <name>SG250HX-IN(COM5-008)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282902</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-12" type="inverter">
+          <uid>12</uid>
+          <name>SG250HX-IN(COM6-012)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040062</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-23" type="inverter">
+          <uid>23</uid>
+          <name>SG250HX-IN(COM5-023)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040057</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-32" type="inverter">
+          <uid>32</uid>
+          <name>SG250HX-IN(COM5-012)</name>
+          <model>SG250HX-IN</model>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-18" type="inverter">
+          <uid>18</uid>
+          <name>SG250HX-IN(COM5-018)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040589</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-17" type="inverter">
+          <uid>17</uid>
+          <name>SG250HX-IN(COM5-017)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040168</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-15" type="inverter">
+          <uid>15</uid>
+          <name>SG250HX-IN(COM5-015)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040117</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-9" type="inverter">
+          <uid>9</uid>
+          <name>SG250HX-IN(COM6-009)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282897</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-2" type="inverter">
+          <uid>2</uid>
+          <name>SG250HX-IN(COM6-002)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040015</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-5" type="inverter">
+          <uid>5</uid>
+          <name>SG250HX-IN(COM6-005)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282817</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-14" type="inverter">
+          <uid>14</uid>
+          <name>SG250HX-IN(COM6-014)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040040</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-28" type="inverter">
+          <uid>28</uid>
+          <name>SG250HX-IN(COM5-028)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040132</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-4" type="inverter">
+          <uid>4</uid>
+          <name>SG250HX-IN(COM6-004)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040166</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-19" type="inverter">
+          <uid>19</uid>
+          <name>SG250HX-IN(COM5-019)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040136</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-22" type="inverter">
+          <uid>22</uid>
+          <name>SG250HX-IN(COM5-022)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040125</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-20" type="inverter">
+          <uid>20</uid>
+          <name>SG250HX-IN(COM5-020)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040160</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-6" type="inverter">
+          <uid>6</uid>
+          <name>SG250HX-IN(COM6-006)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282901</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-1" type="inverter">
+          <uid>1</uid>
+          <name>SG250HX-IN(COM6-001)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040146</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-26" type="inverter">
+          <uid>26</uid>
+          <name>SG250HX-IN(COM5-026)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040033</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-11" type="inverter">
+          <uid>11</uid>
+          <name>SG250HX-IN(COM6-011)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282831</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-35" type="inverter">
+          <uid>35</uid>
+          <name>SG250HX-IN(COM5-009)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282897</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-7" type="inverter">
+          <uid>7</uid>
+          <name>SG250HX-IN(COM6-007)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040131</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-3" type="inverter">
+          <uid>3</uid>
+          <name>SG250HX-IN(COM6-003)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040155</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-16" type="inverter">
+          <uid>16</uid>
+          <name>SG250HX-IN(COM5-016)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040046</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-25" type="inverter">
+          <uid>25</uid>
+          <name>SG250HX-IN(COM5-025)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040105</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-33" type="inverter">
+          <uid>33</uid>
+          <name>SG250HX-IN(COM5-006)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282901</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+        <device id="inverter-13" type="inverter">
+          <uid>13</uid>
+          <name>SG250HX-IN(COM6-013)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2100040021</serial>
+          <ventor>SUNGROW</ventor>
+          <firmware>V11</firmware>
+        </device>
+        <device id="inverter-30" type="inverter">
+          <uid>30</uid>
+          <name>SG250HX-IN(COM5-005)</name>
+          <model>SG250HX-IN</model>
+          <serial>I2106282817</serial>
+          <ventor>SUNGROW</ventor>
+        </device>
+      </devices>
+    </configuration>
+    <datapoints xmlns="http://api.sspcdn.com/mii/datalogger/datapoints">
+      <datapoint timestamp="2024-04-16T09:05:00Z" interval="300">
+        <device id="inverter-29">
+          <mv v="1026002.4153" t="E_TOTAL"/>
+          <mv v="136716.5000" t="E_YEAR"/>
+        </device>
+        <device id="inverter-27">
+          <mv v="136.9000" t="E_DAY"/>
+          <mv v="989532.0147" t="E_TOTAL"/>
+          <mv v="137109.7031" t="E_YEAR"/>
+          <mv v="9898.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.4000" t="T_WR"/>
+          <mv v="1071.6000" t="U_DC1"/>
+          <mv v="5.0000" t="I_DC1"/>
+          <mv v="1054.3000" t="U_DC2"/>
+          <mv v="9.8000" t="I_DC2"/>
+          <mv v="1047.2001" t="U_DC3"/>
+          <mv v="9.8000" t="I_DC3"/>
+          <mv v="1051.4000" t="U_DC4"/>
+          <mv v="10.0000" t="I_DC4"/>
+          <mv v="1061.8000" t="U_DC5"/>
+          <mv v="10.1000" t="I_DC5"/>
+          <mv v="1067.1000" t="U_DC6"/>
+          <mv v="4.8000" t="I_DC6"/>
+          <mv v="1047.5000" t="U_DC7"/>
+          <mv v="10.1000" t="I_DC7"/>
+          <mv v="1067.8000" t="U_DC8"/>
+          <mv v="9.9000" t="I_DC8"/>
+          <mv v="1083.7001" t="U_DC9"/>
+          <mv v="9.7000" t="I_DC9"/>
+          <mv v="1064.1000" t="U_DC10"/>
+          <mv v="9.8000" t="I_DC10"/>
+          <mv v="1063.9000" t="U_DC11"/>
+          <mv v="9.9000" t="I_DC11"/>
+          <mv v="1071.9000" t="U_DC12"/>
+          <mv v="9.7000" t="I_DC12"/>
+          <mv v="1071.6000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1071.6000" t="U_STR2"/>
+          <mv v="5.0000" t="I_STR2"/>
+          <mv v="1054.3000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1054.3000" t="U_STR4"/>
+          <mv v="9.8000" t="I_STR4"/>
+          <mv v="1047.2001" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1047.2001" t="U_STR6"/>
+          <mv v="10.0000" t="I_STR6"/>
+          <mv v="1051.4000" t="U_STR7"/>
+          <mv v="10.0000" t="I_STR7"/>
+          <mv v="1051.4000" t="U_STR8"/>
+          <mv v="0.0000" t="I_STR8"/>
+          <mv v="1061.8000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1061.8000" t="U_STR10"/>
+          <mv v="10.1000" t="I_STR10"/>
+          <mv v="1067.1000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1067.1000" t="U_STR12"/>
+          <mv v="4.8000" t="I_STR12"/>
+          <mv v="1047.5000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1047.5000" t="U_STR14"/>
+          <mv v="10.1000" t="I_STR14"/>
+          <mv v="1067.8000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1067.8000" t="U_STR16"/>
+          <mv v="9.9000" t="I_STR16"/>
+          <mv v="1083.7001" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1083.7001" t="U_STR18"/>
+          <mv v="9.6000" t="I_STR18"/>
+          <mv v="1064.1000" t="U_STR19"/>
+          <mv v="5.1400" t="I_STR19"/>
+          <mv v="1064.1000" t="U_STR20"/>
+          <mv v="4.8000" t="I_STR20"/>
+          <mv v="1063.9000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1063.9000" t="U_STR22"/>
+          <mv v="9.9000" t="I_STR22"/>
+          <mv v="1071.9000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1071.9000" t="U_STR24"/>
+          <mv v="9.7000" t="I_STR24"/>
+          <mv v="115.4470" t="P_DC"/>
+          <mv v="815.2000" t="U_AC_L1L2"/>
+          <mv v="805.6000" t="U_AC_L2L3"/>
+          <mv v="812.0000" t="U_AC_L3L1"/>
+          <mv v="81.6000" t="I_AC1"/>
+          <mv v="81.6000" t="I_AC2"/>
+          <mv v="81.8000" t="I_AC3"/>
+          <mv v="114.1210" t="S_AC"/>
+          <mv v="114.1080" t="P_AC"/>
+          <mv v="-1.7640" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="177.0000" t="FT_AC_DAY"/>
+          <mv v="373.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-8">
+          <mv v="184.2000" t="E_DAY"/>
+          <mv v="1040868.2155" t="E_TOTAL"/>
+          <mv v="145685.4062" t="E_YEAR"/>
+          <mv v="9914.0000" t="OT_AC_TOTAL"/>
+          <mv v="53.4000" t="T_WR"/>
+          <mv v="1054.0000" t="U_DC1"/>
+          <mv v="12.3000" t="I_DC1"/>
+          <mv v="1081.5000" t="U_DC2"/>
+          <mv v="11.6000" t="I_DC2"/>
+          <mv v="1056.9000" t="U_DC3"/>
+          <mv v="12.3000" t="I_DC3"/>
+          <mv v="1037.5000" t="U_DC4"/>
+          <mv v="12.1000" t="I_DC4"/>
+          <mv v="1053.8000" t="U_DC5"/>
+          <mv v="12.3000" t="I_DC5"/>
+          <mv v="1058.3000" t="U_DC6"/>
+          <mv v="6.1000" t="I_DC6"/>
+          <mv v="1051.7001" t="U_DC7"/>
+          <mv v="12.1000" t="I_DC7"/>
+          <mv v="1055.1000" t="U_DC8"/>
+          <mv v="12.0000" t="I_DC8"/>
+          <mv v="1053.6000" t="U_DC9"/>
+          <mv v="12.0000" t="I_DC9"/>
+          <mv v="1077.5000" t="U_DC10"/>
+          <mv v="11.5000" t="I_DC10"/>
+          <mv v="1059.2001" t="U_DC11"/>
+          <mv v="12.1000" t="I_DC11"/>
+          <mv v="1048.8000" t="U_DC12"/>
+          <mv v="11.6000" t="I_DC12"/>
+          <mv v="1054.0000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1054.0000" t="U_STR2"/>
+          <mv v="12.3000" t="I_STR2"/>
+          <mv v="1081.5000" t="U_STR3"/>
+          <mv v="5.7400" t="I_STR3"/>
+          <mv v="1081.5000" t="U_STR4"/>
+          <mv v="5.9100" t="I_STR4"/>
+          <mv v="1056.9000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1056.9000" t="U_STR6"/>
+          <mv v="12.3000" t="I_STR6"/>
+          <mv v="1037.5000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1037.5000" t="U_STR8"/>
+          <mv v="12.1000" t="I_STR8"/>
+          <mv v="1053.8000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1053.8000" t="U_STR10"/>
+          <mv v="12.3000" t="I_STR10"/>
+          <mv v="1058.3000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1058.3000" t="U_STR12"/>
+          <mv v="6.1000" t="I_STR12"/>
+          <mv v="1051.7001" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1051.7001" t="U_STR14"/>
+          <mv v="12.1000" t="I_STR14"/>
+          <mv v="1055.1000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1055.1000" t="U_STR16"/>
+          <mv v="12.0000" t="I_STR16"/>
+          <mv v="1053.6000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1053.6000" t="U_STR18"/>
+          <mv v="12.0000" t="I_STR18"/>
+          <mv v="1077.5000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1077.5000" t="U_STR20"/>
+          <mv v="11.7000" t="I_STR20"/>
+          <mv v="1059.2001" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1059.2001" t="U_STR22"/>
+          <mv v="12.1000" t="I_STR22"/>
+          <mv v="1048.8000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1048.8000" t="U_STR24"/>
+          <mv v="11.5000" t="I_STR24"/>
+          <mv v="145.7800" t="P_DC"/>
+          <mv v="819.5000" t="U_AC_L1L2"/>
+          <mv v="806.7000" t="U_AC_L2L3"/>
+          <mv v="816.0000" t="U_AC_L3L1"/>
+          <mv v="102.3000" t="I_AC1"/>
+          <mv v="101.4000" t="I_AC2"/>
+          <mv v="101.6000" t="I_AC3"/>
+          <mv v="143.4970" t="S_AC"/>
+          <mv v="143.4750" t="P_AC"/>
+          <mv v="-2.5560" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0000" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="218.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-31">
+          <mv v="0.0000" t="E_DAY"/>
+          <mv v="1044505.2156" t="E_TOTAL"/>
+          <mv v="145629.2969" t="E_YEAR"/>
+          <mv v="9901.0000" t="OT_AC_TOTAL"/>
+          <mv v="0.0000" t="FT_AC_DAY"/>
+        </device>
+        <device id="inverter-21">
+          <mv v="156.7000" t="E_DAY"/>
+          <mv v="1018885.0152" t="E_TOTAL"/>
+          <mv v="143601.0000" t="E_YEAR"/>
+          <mv v="9887.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.9000" t="T_WR"/>
+          <mv v="1061.1000" t="U_DC1"/>
+          <mv v="10.6000" t="I_DC1"/>
+          <mv v="1062.3000" t="U_DC2"/>
+          <mv v="10.7000" t="I_DC2"/>
+          <mv v="1049.9000" t="U_DC3"/>
+          <mv v="10.6000" t="I_DC3"/>
+          <mv v="1064.9000" t="U_DC4"/>
+          <mv v="10.7000" t="I_DC4"/>
+          <mv v="1055.6000" t="U_DC5"/>
+          <mv v="10.6000" t="I_DC5"/>
+          <mv v="1053.0000" t="U_DC6"/>
+          <mv v="10.8000" t="I_DC6"/>
+          <mv v="1058.2001" t="U_DC7"/>
+          <mv v="10.6000" t="I_DC7"/>
+          <mv v="1053.5000" t="U_DC8"/>
+          <mv v="10.5000" t="I_DC8"/>
+          <mv v="1065.9000" t="U_DC9"/>
+          <mv v="5.5000" t="I_DC9"/>
+          <mv v="1053.9000" t="U_DC10"/>
+          <mv v="10.7000" t="I_DC10"/>
+          <mv v="1056.9000" t="U_DC11"/>
+          <mv v="10.6000" t="I_DC11"/>
+          <mv v="1070.6000" t="U_DC12"/>
+          <mv v="10.6000" t="I_DC12"/>
+          <mv v="1061.1000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1061.1000" t="U_STR2"/>
+          <mv v="10.6000" t="I_STR2"/>
+          <mv v="1062.3000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1062.3000" t="U_STR4"/>
+          <mv v="10.7000" t="I_STR4"/>
+          <mv v="1049.9000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1049.9000" t="U_STR6"/>
+          <mv v="10.5000" t="I_STR6"/>
+          <mv v="1064.9000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1064.9000" t="U_STR8"/>
+          <mv v="10.7000" t="I_STR8"/>
+          <mv v="1055.6000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1055.6000" t="U_STR10"/>
+          <mv v="10.6000" t="I_STR10"/>
+          <mv v="1053.0000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1053.0000" t="U_STR12"/>
+          <mv v="10.7000" t="I_STR12"/>
+          <mv v="1058.2001" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1058.2001" t="U_STR14"/>
+          <mv v="10.6000" t="I_STR14"/>
+          <mv v="1053.5000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1053.5000" t="U_STR16"/>
+          <mv v="10.3000" t="I_STR16"/>
+          <mv v="1065.9000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1065.9000" t="U_STR18"/>
+          <mv v="5.5000" t="I_STR18"/>
+          <mv v="1053.9000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1053.9000" t="U_STR20"/>
+          <mv v="10.7000" t="I_STR20"/>
+          <mv v="1056.9000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1056.9000" t="U_STR22"/>
+          <mv v="10.6000" t="I_STR22"/>
+          <mv v="1070.6000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1070.6000" t="U_STR24"/>
+          <mv v="10.4000" t="I_STR24"/>
+          <mv v="128.7340" t="P_DC"/>
+          <mv v="812.0000" t="U_AC_L1L2"/>
+          <mv v="800.8000" t="U_AC_L2L3"/>
+          <mv v="812.5000" t="U_AC_L3L1"/>
+          <mv v="91.3000" t="I_AC1"/>
+          <mv v="90.7000" t="I_AC2"/>
+          <mv v="90.7000" t="I_AC3"/>
+          <mv v="127.2200" t="S_AC"/>
+          <mv v="127.2020" t="P_AC"/>
+          <mv v="-2.1630" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="291.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-10">
+          <mv v="172.4000" t="E_DAY"/>
+          <mv v="1033863.3154" t="E_TOTAL"/>
+          <mv v="144577.4062" t="E_YEAR"/>
+          <mv v="9917.0000" t="OT_AC_TOTAL"/>
+          <mv v="52.5000" t="T_WR"/>
+          <mv v="1038.6000" t="U_DC1"/>
+          <mv v="11.9000" t="I_DC1"/>
+          <mv v="1049.3000" t="U_DC2"/>
+          <mv v="11.8000" t="I_DC2"/>
+          <mv v="1105.3000" t="U_DC3"/>
+          <mv v="5.0000" t="I_DC3"/>
+          <mv v="1063.8000" t="U_DC4"/>
+          <mv v="11.3000" t="I_DC4"/>
+          <mv v="1047.3000" t="U_DC5"/>
+          <mv v="11.5000" t="I_DC5"/>
+          <mv v="1068.3000" t="U_DC6"/>
+          <mv v="11.2000" t="I_DC6"/>
+          <mv v="1059.7001" t="U_DC7"/>
+          <mv v="11.6000" t="I_DC7"/>
+          <mv v="1054.1000" t="U_DC8"/>
+          <mv v="11.6000" t="I_DC8"/>
+          <mv v="1053.1000" t="U_DC9"/>
+          <mv v="12.0000" t="I_DC9"/>
+          <mv v="1049.3000" t="U_DC10"/>
+          <mv v="11.3000" t="I_DC10"/>
+          <mv v="1062.4000" t="U_DC11"/>
+          <mv v="11.4000" t="I_DC11"/>
+          <mv v="1050.0000" t="U_DC12"/>
+          <mv v="11.0000" t="I_DC12"/>
+          <mv v="1038.6000" t="U_STR1"/>
+          <mv v="11.9000" t="I_STR1"/>
+          <mv v="1038.6000" t="U_STR2"/>
+          <mv v="0.0000" t="I_STR2"/>
+          <mv v="1049.3000" t="U_STR3"/>
+          <mv v="11.7000" t="I_STR3"/>
+          <mv v="1049.3000" t="U_STR4"/>
+          <mv v="0.0000" t="I_STR4"/>
+          <mv v="1105.3000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1105.3000" t="U_STR6"/>
+          <mv v="5.0000" t="I_STR6"/>
+          <mv v="1063.8000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1063.8000" t="U_STR8"/>
+          <mv v="11.4000" t="I_STR8"/>
+          <mv v="1047.3000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1047.3000" t="U_STR10"/>
+          <mv v="11.5000" t="I_STR10"/>
+          <mv v="1068.3000" t="U_STR11"/>
+          <mv v="5.6600" t="I_STR11"/>
+          <mv v="1068.3000" t="U_STR12"/>
+          <mv v="5.5400" t="I_STR12"/>
+          <mv v="1059.7001" t="U_STR13"/>
+          <mv v="5.7700" t="I_STR13"/>
+          <mv v="1059.7001" t="U_STR14"/>
+          <mv v="5.6600" t="I_STR14"/>
+          <mv v="1054.1000" t="U_STR15"/>
+          <mv v="11.7000" t="I_STR15"/>
+          <mv v="1054.1000" t="U_STR16"/>
+          <mv v="0.0000" t="I_STR16"/>
+          <mv v="1053.1000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1053.1000" t="U_STR18"/>
+          <mv v="11.9000" t="I_STR18"/>
+          <mv v="1049.3000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1049.3000" t="U_STR20"/>
+          <mv v="11.2000" t="I_STR20"/>
+          <mv v="1062.4000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1062.4000" t="U_STR22"/>
+          <mv v="11.3000" t="I_STR22"/>
+          <mv v="1050.0000" t="U_STR23"/>
+          <mv v="5.4300" t="I_STR23"/>
+          <mv v="1050.0000" t="U_STR24"/>
+          <mv v="5.3600" t="I_STR24"/>
+          <mv v="138.9790" t="P_DC"/>
+          <mv v="816.0000" t="U_AC_L1L2"/>
+          <mv v="805.8000" t="U_AC_L2L3"/>
+          <mv v="815.2000" t="U_AC_L3L1"/>
+          <mv v="97.3000" t="I_AC1"/>
+          <mv v="96.9000" t="I_AC2"/>
+          <mv v="97.1000" t="I_AC3"/>
+          <mv v="136.6170" t="S_AC"/>
+          <mv v="136.5980" t="P_AC"/>
+          <mv v="-2.3260" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="179.0000" t="FT_AC_DAY"/>
+          <mv v="233.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-24">
+          <mv v="137.8000" t="E_DAY"/>
+          <mv v="1017079.9152" t="E_TOTAL"/>
+          <mv v="141422.1094" t="E_YEAR"/>
+          <mv v="9896.0000" t="OT_AC_TOTAL"/>
+          <mv v="49.8000" t="T_WR"/>
+          <mv v="1060.5000" t="U_DC1"/>
+          <mv v="9.3000" t="I_DC1"/>
+          <mv v="1073.6000" t="U_DC2"/>
+          <mv v="9.8000" t="I_DC2"/>
+          <mv v="1056.2001" t="U_DC3"/>
+          <mv v="9.6000" t="I_DC3"/>
+          <mv v="1067.7001" t="U_DC4"/>
+          <mv v="9.4000" t="I_DC4"/>
+          <mv v="1068.6000" t="U_DC5"/>
+          <mv v="9.7000" t="I_DC5"/>
+          <mv v="1065.8000" t="U_DC6"/>
+          <mv v="9.6000" t="I_DC6"/>
+          <mv v="1062.2001" t="U_DC7"/>
+          <mv v="9.9000" t="I_DC7"/>
+          <mv v="1074.0000" t="U_DC8"/>
+          <mv v="9.4000" t="I_DC8"/>
+          <mv v="1065.7001" t="U_DC9"/>
+          <mv v="9.6000" t="I_DC9"/>
+          <mv v="1056.2001" t="U_DC10"/>
+          <mv v="9.3000" t="I_DC10"/>
+          <mv v="1051.2001" t="U_DC11"/>
+          <mv v="9.7000" t="I_DC11"/>
+          <mv v="1078.8000" t="U_DC12"/>
+          <mv v="4.7000" t="I_DC12"/>
+          <mv v="1060.5000" t="U_STR1"/>
+          <mv v="4.6800" t="I_STR1"/>
+          <mv v="1060.5000" t="U_STR2"/>
+          <mv v="4.5600" t="I_STR2"/>
+          <mv v="1073.6000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1073.6000" t="U_STR4"/>
+          <mv v="9.8000" t="I_STR4"/>
+          <mv v="1056.2001" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1056.2001" t="U_STR6"/>
+          <mv v="9.7000" t="I_STR6"/>
+          <mv v="1067.7001" t="U_STR7"/>
+          <mv v="4.8800" t="I_STR7"/>
+          <mv v="1067.7001" t="U_STR8"/>
+          <mv v="4.5000" t="I_STR8"/>
+          <mv v="1068.6000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1068.6000" t="U_STR10"/>
+          <mv v="9.7000" t="I_STR10"/>
+          <mv v="1065.8000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1065.8000" t="U_STR12"/>
+          <mv v="9.7000" t="I_STR12"/>
+          <mv v="1062.2001" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1062.2001" t="U_STR14"/>
+          <mv v="9.8000" t="I_STR14"/>
+          <mv v="1074.0000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1074.0000" t="U_STR16"/>
+          <mv v="9.3000" t="I_STR16"/>
+          <mv v="1065.7001" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1065.7001" t="U_STR18"/>
+          <mv v="9.7000" t="I_STR18"/>
+          <mv v="1056.2001" t="U_STR19"/>
+          <mv v="4.6000" t="I_STR19"/>
+          <mv v="1056.2001" t="U_STR20"/>
+          <mv v="4.7600" t="I_STR20"/>
+          <mv v="1051.2001" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1051.2001" t="U_STR22"/>
+          <mv v="9.8000" t="I_STR22"/>
+          <mv v="1078.8000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1078.8000" t="U_STR24"/>
+          <mv v="4.7000" t="I_STR24"/>
+          <mv v="117.9000" t="P_DC"/>
+          <mv v="816.3000" t="U_AC_L1L2"/>
+          <mv v="805.7000" t="U_AC_L2L3"/>
+          <mv v="814.5000" t="U_AC_L3L1"/>
+          <mv v="83.4000" t="I_AC1"/>
+          <mv v="83.0000" t="I_AC2"/>
+          <mv v="83.0000" t="I_AC3"/>
+          <mv v="116.5380" t="S_AC"/>
+          <mv v="116.5210" t="P_AC"/>
+          <mv v="-2.0460" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="177.0000" t="FT_AC_DAY"/>
+          <mv v="244.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-34">
+          <mv v="0.0000" t="E_DAY"/>
+          <mv v="1040684.0155" t="E_TOTAL"/>
+          <mv v="145501.2031" t="E_YEAR"/>
+          <mv v="9911.0000" t="OT_AC_TOTAL"/>
+          <mv v="0.0000" t="FT_AC_DAY"/>
+        </device>
+        <device id="inverter-12">
+          <mv v="146.1000" t="E_DAY"/>
+          <mv v="1024381.5153" t="E_TOTAL"/>
+          <mv v="142551.7031" t="E_YEAR"/>
+          <mv v="9902.0000" t="OT_AC_TOTAL"/>
+          <mv v="49.3000" t="T_WR"/>
+          <mv v="1064.3000" t="U_DC1"/>
+          <mv v="10.5000" t="I_DC1"/>
+          <mv v="1062.7001" t="U_DC2"/>
+          <mv v="9.8000" t="I_DC2"/>
+          <mv v="1057.2001" t="U_DC3"/>
+          <mv v="5.1000" t="I_DC3"/>
+          <mv v="1066.8000" t="U_DC4"/>
+          <mv v="9.6000" t="I_DC4"/>
+          <mv v="1067.4000" t="U_DC5"/>
+          <mv v="9.8000" t="I_DC5"/>
+          <mv v="1057.9000" t="U_DC6"/>
+          <mv v="10.4000" t="I_DC6"/>
+          <mv v="1067.6000" t="U_DC7"/>
+          <mv v="9.8000" t="I_DC7"/>
+          <mv v="1066.3000" t="U_DC8"/>
+          <mv v="10.5000" t="I_DC8"/>
+          <mv v="1060.8000" t="U_DC9"/>
+          <mv v="9.8000" t="I_DC9"/>
+          <mv v="1065.8000" t="U_DC10"/>
+          <mv v="10.2000" t="I_DC10"/>
+          <mv v="1069.3000" t="U_DC11"/>
+          <mv v="10.1000" t="I_DC11"/>
+          <mv v="1062.1000" t="U_DC12"/>
+          <mv v="10.4000" t="I_DC12"/>
+          <mv v="1064.3000" t="U_STR1"/>
+          <mv v="5.0400" t="I_STR1"/>
+          <mv v="1064.3000" t="U_STR2"/>
+          <mv v="5.1400" t="I_STR2"/>
+          <mv v="1062.7001" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1062.7001" t="U_STR4"/>
+          <mv v="9.8000" t="I_STR4"/>
+          <mv v="1057.2001" t="U_STR5"/>
+          <mv v="5.2000" t="I_STR5"/>
+          <mv v="1057.2001" t="U_STR6"/>
+          <mv v="0.0000" t="I_STR6"/>
+          <mv v="1066.8000" t="U_STR7"/>
+          <mv v="9.6000" t="I_STR7"/>
+          <mv v="1066.8000" t="U_STR8"/>
+          <mv v="0.0000" t="I_STR8"/>
+          <mv v="1067.4000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1067.4000" t="U_STR10"/>
+          <mv v="9.8000" t="I_STR10"/>
+          <mv v="1057.9000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1057.9000" t="U_STR12"/>
+          <mv v="10.4000" t="I_STR12"/>
+          <mv v="1067.6000" t="U_STR13"/>
+          <mv v="9.8000" t="I_STR13"/>
+          <mv v="1067.6000" t="U_STR14"/>
+          <mv v="0.0000" t="I_STR14"/>
+          <mv v="1066.3000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1066.3000" t="U_STR16"/>
+          <mv v="10.5000" t="I_STR16"/>
+          <mv v="1060.8000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1060.8000" t="U_STR18"/>
+          <mv v="9.7000" t="I_STR18"/>
+          <mv v="1065.8000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1065.8000" t="U_STR20"/>
+          <mv v="10.2000" t="I_STR20"/>
+          <mv v="1069.3000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1069.3000" t="U_STR22"/>
+          <mv v="9.9000" t="I_STR22"/>
+          <mv v="1062.1000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1062.1000" t="U_STR24"/>
+          <mv v="10.4000" t="I_STR24"/>
+          <mv v="123.2630" t="P_DC"/>
+          <mv v="812.0000" t="U_AC_L1L2"/>
+          <mv v="803.5000" t="U_AC_L2L3"/>
+          <mv v="810.4000" t="U_AC_L3L1"/>
+          <mv v="87.3000" t="I_AC1"/>
+          <mv v="87.0000" t="I_AC2"/>
+          <mv v="87.3000" t="I_AC3"/>
+          <mv v="121.8160" t="S_AC"/>
+          <mv v="121.7960" t="P_AC"/>
+          <mv v="-2.2090" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0000" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="254.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-23">
+          <mv v="144.1000" t="E_DAY"/>
+          <mv v="1023209.9152" t="E_TOTAL"/>
+          <mv v="141666.6094" t="E_YEAR"/>
+          <mv v="9877.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.2000" t="T_WR"/>
+          <mv v="1057.0000" t="U_DC1"/>
+          <mv v="10.0000" t="I_DC1"/>
+          <mv v="1060.7001" t="U_DC2"/>
+          <mv v="10.2000" t="I_DC2"/>
+          <mv v="1043.1000" t="U_DC3"/>
+          <mv v="10.1000" t="I_DC3"/>
+          <mv v="1049.5000" t="U_DC4"/>
+          <mv v="4.9000" t="I_DC4"/>
+          <mv v="1052.0000" t="U_DC5"/>
+          <mv v="10.1000" t="I_DC5"/>
+          <mv v="1053.2001" t="U_DC6"/>
+          <mv v="10.2000" t="I_DC6"/>
+          <mv v="1062.1000" t="U_DC7"/>
+          <mv v="9.7000" t="I_DC7"/>
+          <mv v="1065.4000" t="U_DC8"/>
+          <mv v="9.7000" t="I_DC8"/>
+          <mv v="1053.4000" t="U_DC9"/>
+          <mv v="10.0000" t="I_DC9"/>
+          <mv v="1053.1000" t="U_DC10"/>
+          <mv v="9.9000" t="I_DC10"/>
+          <mv v="1064.1000" t="U_DC11"/>
+          <mv v="9.9000" t="I_DC11"/>
+          <mv v="1049.4000" t="U_DC12"/>
+          <mv v="10.0000" t="I_DC12"/>
+          <mv v="1057.0000" t="U_STR1"/>
+          <mv v="10.1000" t="I_STR1"/>
+          <mv v="1057.0000" t="U_STR2"/>
+          <mv v="0.0000" t="I_STR2"/>
+          <mv v="1060.7001" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1060.7001" t="U_STR4"/>
+          <mv v="10.1000" t="I_STR4"/>
+          <mv v="1043.1000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1043.1000" t="U_STR6"/>
+          <mv v="10.2000" t="I_STR6"/>
+          <mv v="1049.5000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1049.5000" t="U_STR8"/>
+          <mv v="4.9000" t="I_STR8"/>
+          <mv v="1052.0000" t="U_STR9"/>
+          <mv v="4.8800" t="I_STR9"/>
+          <mv v="1052.0000" t="U_STR10"/>
+          <mv v="5.0300" t="I_STR10"/>
+          <mv v="1053.2001" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1053.2001" t="U_STR12"/>
+          <mv v="10.2000" t="I_STR12"/>
+          <mv v="1062.1000" t="U_STR13"/>
+          <mv v="4.6900" t="I_STR13"/>
+          <mv v="1062.1000" t="U_STR14"/>
+          <mv v="4.7500" t="I_STR14"/>
+          <mv v="1065.4000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1065.4000" t="U_STR16"/>
+          <mv v="9.7000" t="I_STR16"/>
+          <mv v="1053.4000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1053.4000" t="U_STR18"/>
+          <mv v="10.1000" t="I_STR18"/>
+          <mv v="1053.1000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1053.1000" t="U_STR20"/>
+          <mv v="9.9000" t="I_STR20"/>
+          <mv v="1064.1000" t="U_STR21"/>
+          <mv v="5.0700" t="I_STR21"/>
+          <mv v="1064.1000" t="U_STR22"/>
+          <mv v="4.7500" t="I_STR22"/>
+          <mv v="1049.4000" t="U_STR23"/>
+          <mv v="10.0000" t="I_STR23"/>
+          <mv v="1049.4000" t="U_STR24"/>
+          <mv v="0.0000" t="I_STR24"/>
+          <mv v="121.1850" t="P_DC"/>
+          <mv v="814.1000" t="U_AC_L1L2"/>
+          <mv v="805.6000" t="U_AC_L2L3"/>
+          <mv v="812.0000" t="U_AC_L3L1"/>
+          <mv v="85.5000" t="I_AC1"/>
+          <mv v="85.4000" t="I_AC2"/>
+          <mv v="85.4000" t="I_AC3"/>
+          <mv v="119.7630" t="S_AC"/>
+          <mv v="119.7430" t="P_AC"/>
+          <mv v="-2.2290" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0200" t="F_AC"/>
+          <mv v="177.0000" t="FT_AC_DAY"/>
+          <mv v="247.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-32">
+          <mv v="1022707.4152" t="E_TOTAL"/>
+        </device>
+        <device id="inverter-18">
+          <mv v="143.4000" t="E_DAY"/>
+          <mv v="1019391.3152" t="E_TOTAL"/>
+          <mv v="141171.2969" t="E_YEAR"/>
+          <mv v="10953.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.5000" t="T_WR"/>
+          <mv v="1047.6000" t="U_DC1"/>
+          <mv v="10.3000" t="I_DC1"/>
+          <mv v="1054.3000" t="U_DC2"/>
+          <mv v="10.1000" t="I_DC2"/>
+          <mv v="1044.9000" t="U_DC3"/>
+          <mv v="10.2000" t="I_DC3"/>
+          <mv v="1066.1000" t="U_DC4"/>
+          <mv v="5.1000" t="I_DC4"/>
+          <mv v="1050.2001" t="U_DC5"/>
+          <mv v="10.0000" t="I_DC5"/>
+          <mv v="1058.8000" t="U_DC6"/>
+          <mv v="10.1000" t="I_DC6"/>
+          <mv v="1046.8000" t="U_DC7"/>
+          <mv v="9.9000" t="I_DC7"/>
+          <mv v="1065.0000" t="U_DC8"/>
+          <mv v="10.1000" t="I_DC8"/>
+          <mv v="1049.1000" t="U_DC9"/>
+          <mv v="10.1000" t="I_DC9"/>
+          <mv v="1060.6000" t="U_DC10"/>
+          <mv v="9.8000" t="I_DC10"/>
+          <mv v="1064.5000" t="U_DC11"/>
+          <mv v="9.7000" t="I_DC11"/>
+          <mv v="1049.6000" t="U_DC12"/>
+          <mv v="9.9000" t="I_DC12"/>
+          <mv v="1047.6000" t="U_STR1"/>
+          <mv v="10.3000" t="I_STR1"/>
+          <mv v="1047.6000" t="U_STR2"/>
+          <mv v="0.0000" t="I_STR2"/>
+          <mv v="1054.3000" t="U_STR3"/>
+          <mv v="10.1000" t="I_STR3"/>
+          <mv v="1054.3000" t="U_STR4"/>
+          <mv v="0.0000" t="I_STR4"/>
+          <mv v="1044.9000" t="U_STR5"/>
+          <mv v="10.2000" t="I_STR5"/>
+          <mv v="1044.9000" t="U_STR6"/>
+          <mv v="0.0000" t="I_STR6"/>
+          <mv v="1066.1000" t="U_STR7"/>
+          <mv v="5.1000" t="I_STR7"/>
+          <mv v="1066.1000" t="U_STR8"/>
+          <mv v="0.0000" t="I_STR8"/>
+          <mv v="1050.2001" t="U_STR9"/>
+          <mv v="9.9000" t="I_STR9"/>
+          <mv v="1050.2001" t="U_STR10"/>
+          <mv v="0.0000" t="I_STR10"/>
+          <mv v="1058.8000" t="U_STR11"/>
+          <mv v="10.1000" t="I_STR11"/>
+          <mv v="1058.8000" t="U_STR12"/>
+          <mv v="0.0000" t="I_STR12"/>
+          <mv v="1046.8000" t="U_STR13"/>
+          <mv v="4.8100" t="I_STR13"/>
+          <mv v="1046.8000" t="U_STR14"/>
+          <mv v="4.8900" t="I_STR14"/>
+          <mv v="1065.0000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1065.0000" t="U_STR16"/>
+          <mv v="10.1000" t="I_STR16"/>
+          <mv v="1049.1000" t="U_STR17"/>
+          <mv v="10.1000" t="I_STR17"/>
+          <mv v="1049.1000" t="U_STR18"/>
+          <mv v="0.0000" t="I_STR18"/>
+          <mv v="1060.6000" t="U_STR19"/>
+          <mv v="4.9200" t="I_STR19"/>
+          <mv v="1060.6000" t="U_STR20"/>
+          <mv v="4.6800" t="I_STR20"/>
+          <mv v="1064.5000" t="U_STR21"/>
+          <mv v="4.7200" t="I_STR21"/>
+          <mv v="1064.5000" t="U_STR22"/>
+          <mv v="4.8200" t="I_STR22"/>
+          <mv v="1049.6000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1049.6000" t="U_STR24"/>
+          <mv v="9.9000" t="I_STR24"/>
+          <mv v="121.4130" t="P_DC"/>
+          <mv v="812.8000" t="U_AC_L1L2"/>
+          <mv v="801.5000" t="U_AC_L2L3"/>
+          <mv v="808.8000" t="U_AC_L3L1"/>
+          <mv v="86.0000" t="I_AC1"/>
+          <mv v="85.9000" t="I_AC2"/>
+          <mv v="85.7000" t="I_AC3"/>
+          <mv v="119.9870" t="S_AC"/>
+          <mv v="119.9680" t="P_AC"/>
+          <mv v="-2.1620" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="234.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-17">
+          <mv v="142.5000" t="E_DAY"/>
+          <mv v="1021357.3152" t="E_TOTAL"/>
+          <mv v="141135.6094" t="E_YEAR"/>
+          <mv v="10883.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.3000" t="T_WR"/>
+          <mv v="1052.0000" t="U_DC1"/>
+          <mv v="10.2000" t="I_DC1"/>
+          <mv v="1050.2001" t="U_DC2"/>
+          <mv v="10.2000" t="I_DC2"/>
+          <mv v="1058.3000" t="U_DC3"/>
+          <mv v="9.8000" t="I_DC3"/>
+          <mv v="1048.2001" t="U_DC4"/>
+          <mv v="10.2000" t="I_DC4"/>
+          <mv v="1056.2001" t="U_DC5"/>
+          <mv v="10.0000" t="I_DC5"/>
+          <mv v="1055.0000" t="U_DC6"/>
+          <mv v="9.9000" t="I_DC6"/>
+          <mv v="1046.4000" t="U_DC7"/>
+          <mv v="9.1000" t="I_DC7"/>
+          <mv v="1060.2001" t="U_DC8"/>
+          <mv v="10.1000" t="I_DC8"/>
+          <mv v="1068.6000" t="U_DC9"/>
+          <mv v="5.0000" t="I_DC9"/>
+          <mv v="1069.1000" t="U_DC10"/>
+          <mv v="9.8000" t="I_DC10"/>
+          <mv v="1047.6000" t="U_DC11"/>
+          <mv v="10.1000" t="I_DC11"/>
+          <mv v="1048.0000" t="U_DC12"/>
+          <mv v="10.2000" t="I_DC12"/>
+          <mv v="1052.0000" t="U_STR1"/>
+          <mv v="10.0000" t="I_STR1"/>
+          <mv v="1052.0000" t="U_STR2"/>
+          <mv v="0.0000" t="I_STR2"/>
+          <mv v="1050.2001" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1050.2001" t="U_STR4"/>
+          <mv v="10.2000" t="I_STR4"/>
+          <mv v="1058.3000" t="U_STR5"/>
+          <mv v="9.8000" t="I_STR5"/>
+          <mv v="1058.3000" t="U_STR6"/>
+          <mv v="0.0000" t="I_STR6"/>
+          <mv v="1048.2001" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1048.2001" t="U_STR8"/>
+          <mv v="10.2000" t="I_STR8"/>
+          <mv v="1056.2001" t="U_STR9"/>
+          <mv v="4.8700" t="I_STR9"/>
+          <mv v="1056.2001" t="U_STR10"/>
+          <mv v="4.9900" t="I_STR10"/>
+          <mv v="1055.0000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1055.0000" t="U_STR12"/>
+          <mv v="9.9000" t="I_STR12"/>
+          <mv v="1046.4000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1046.4000" t="U_STR14"/>
+          <mv v="9.1000" t="I_STR14"/>
+          <mv v="1060.2001" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1060.2001" t="U_STR16"/>
+          <mv v="10.1000" t="I_STR16"/>
+          <mv v="1068.6000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1068.6000" t="U_STR18"/>
+          <mv v="5.0000" t="I_STR18"/>
+          <mv v="1069.1000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1069.1000" t="U_STR20"/>
+          <mv v="9.8000" t="I_STR20"/>
+          <mv v="1047.6000" t="U_STR21"/>
+          <mv v="5.1200" t="I_STR21"/>
+          <mv v="1047.6000" t="U_STR22"/>
+          <mv v="4.8300" t="I_STR22"/>
+          <mv v="1048.0000" t="U_STR23"/>
+          <mv v="4.9500" t="I_STR23"/>
+          <mv v="1048.0000" t="U_STR24"/>
+          <mv v="4.8100" t="I_STR24"/>
+          <mv v="120.9040" t="P_DC"/>
+          <mv v="814.4000" t="U_AC_L1L2"/>
+          <mv v="803.2000" t="U_AC_L2L3"/>
+          <mv v="810.4000" t="U_AC_L3L1"/>
+          <mv v="85.5000" t="I_AC1"/>
+          <mv v="85.4000" t="I_AC2"/>
+          <mv v="85.4000" t="I_AC3"/>
+          <mv v="119.4840" t="S_AC"/>
+          <mv v="119.4650" t="P_AC"/>
+          <mv v="-2.1400" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="260.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-15">
+          <mv v="146.4000" t="E_DAY"/>
+          <mv v="1029359.0153" t="E_TOTAL"/>
+          <mv v="143060.4062" t="E_YEAR"/>
+          <mv v="9910.0000" t="OT_AC_TOTAL"/>
+          <mv v="51.5000" t="T_WR"/>
+          <mv v="1069.4000" t="U_DC1"/>
+          <mv v="10.2000" t="I_DC1"/>
+          <mv v="1063.7001" t="U_DC2"/>
+          <mv v="4.8000" t="I_DC2"/>
+          <mv v="1072.3000" t="U_DC3"/>
+          <mv v="9.6000" t="I_DC3"/>
+          <mv v="1052.5000" t="U_DC4"/>
+          <mv v="9.8000" t="I_DC4"/>
+          <mv v="1049.2001" t="U_DC5"/>
+          <mv v="10.1000" t="I_DC5"/>
+          <mv v="1059.2001" t="U_DC6"/>
+          <mv v="10.0000" t="I_DC6"/>
+          <mv v="1055.5000" t="U_DC7"/>
+          <mv v="9.9000" t="I_DC7"/>
+          <mv v="1085.3000" t="U_DC8"/>
+          <mv v="10.5000" t="I_DC8"/>
+          <mv v="1055.6000" t="U_DC9"/>
+          <mv v="10.2000" t="I_DC9"/>
+          <mv v="1053.8000" t="U_DC10"/>
+          <mv v="10.3000" t="I_DC10"/>
+          <mv v="1060.6000" t="U_DC11"/>
+          <mv v="10.4000" t="I_DC11"/>
+          <mv v="1072.9000" t="U_DC12"/>
+          <mv v="10.5000" t="I_DC12"/>
+          <mv v="1069.4000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1069.4000" t="U_STR2"/>
+          <mv v="10.2000" t="I_STR2"/>
+          <mv v="1063.7001" t="U_STR3"/>
+          <mv v="4.7000" t="I_STR3"/>
+          <mv v="1063.7001" t="U_STR4"/>
+          <mv v="0.0000" t="I_STR4"/>
+          <mv v="1072.3000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1072.3000" t="U_STR6"/>
+          <mv v="9.6000" t="I_STR6"/>
+          <mv v="1052.5000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1052.5000" t="U_STR8"/>
+          <mv v="9.9000" t="I_STR8"/>
+          <mv v="1049.2001" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1049.2001" t="U_STR10"/>
+          <mv v="10.1000" t="I_STR10"/>
+          <mv v="1059.2001" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1059.2001" t="U_STR12"/>
+          <mv v="9.9000" t="I_STR12"/>
+          <mv v="1055.5000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1055.5000" t="U_STR14"/>
+          <mv v="9.9000" t="I_STR14"/>
+          <mv v="1085.3000" t="U_STR15"/>
+          <mv v="10.5000" t="I_STR15"/>
+          <mv v="1085.3000" t="U_STR16"/>
+          <mv v="0.0000" t="I_STR16"/>
+          <mv v="1055.6000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1055.6000" t="U_STR18"/>
+          <mv v="10.2000" t="I_STR18"/>
+          <mv v="1053.8000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1053.8000" t="U_STR20"/>
+          <mv v="10.3000" t="I_STR20"/>
+          <mv v="1060.6000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1060.6000" t="U_STR22"/>
+          <mv v="10.4000" t="I_STR22"/>
+          <mv v="1072.9000" t="U_STR23"/>
+          <mv v="5.1400" t="I_STR23"/>
+          <mv v="1072.9000" t="U_STR24"/>
+          <mv v="5.3200" t="I_STR24"/>
+          <mv v="123.7050" t="P_DC"/>
+          <mv v="817.6000" t="U_AC_L1L2"/>
+          <mv v="806.4000" t="U_AC_L2L3"/>
+          <mv v="814.3000" t="U_AC_L3L1"/>
+          <mv v="87.1000" t="I_AC1"/>
+          <mv v="87.1000" t="I_AC2"/>
+          <mv v="87.0000" t="I_AC3"/>
+          <mv v="122.1820" t="S_AC"/>
+          <mv v="122.1630" t="P_AC"/>
+          <mv v="-2.1960" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="179.0000" t="FT_AC_DAY"/>
+          <mv v="248.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-9">
+          <mv v="164.7000" t="E_DAY"/>
+          <mv v="995884.1148" t="E_TOTAL"/>
+          <mv v="138569.4062" t="E_YEAR"/>
+          <mv v="9817.0000" t="OT_AC_TOTAL"/>
+          <mv v="51.9000" t="T_WR"/>
+          <mv v="1045.1000" t="U_DC1"/>
+          <mv v="11.8000" t="I_DC1"/>
+          <mv v="1060.0000" t="U_DC2"/>
+          <mv v="11.1000" t="I_DC2"/>
+          <mv v="1047.2001" t="U_DC3"/>
+          <mv v="11.4000" t="I_DC3"/>
+          <mv v="1053.5000" t="U_DC4"/>
+          <mv v="11.8000" t="I_DC4"/>
+          <mv v="1038.7001" t="U_DC5"/>
+          <mv v="12.4000" t="I_DC5"/>
+          <mv v="1050.5000" t="U_DC6"/>
+          <mv v="6.2000" t="I_DC6"/>
+          <mv v="1055.2001" t="U_DC7"/>
+          <mv v="11.6000" t="I_DC7"/>
+          <mv v="1055.5000" t="U_DC8"/>
+          <mv v="11.0000" t="I_DC8"/>
+          <mv v="1050.9000" t="U_DC9"/>
+          <mv v="5.9000" t="I_DC9"/>
+          <mv v="1052.4000" t="U_DC10"/>
+          <mv v="11.2000" t="I_DC10"/>
+          <mv v="1051.0000" t="U_DC11"/>
+          <mv v="12.2000" t="I_DC11"/>
+          <mv v="1064.5000" t="U_DC12"/>
+          <mv v="11.1000" t="I_DC12"/>
+          <mv v="1045.1000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1045.1000" t="U_STR2"/>
+          <mv v="11.8000" t="I_STR2"/>
+          <mv v="1060.0000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1060.0000" t="U_STR4"/>
+          <mv v="11.1000" t="I_STR4"/>
+          <mv v="1047.2001" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1047.2001" t="U_STR6"/>
+          <mv v="11.5000" t="I_STR6"/>
+          <mv v="1053.5000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1053.5000" t="U_STR8"/>
+          <mv v="11.9000" t="I_STR8"/>
+          <mv v="1038.7001" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1038.7001" t="U_STR10"/>
+          <mv v="12.3000" t="I_STR10"/>
+          <mv v="1050.5000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1050.5000" t="U_STR12"/>
+          <mv v="6.2000" t="I_STR12"/>
+          <mv v="1055.2001" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1055.2001" t="U_STR14"/>
+          <mv v="11.5000" t="I_STR14"/>
+          <mv v="1055.5000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1055.5000" t="U_STR16"/>
+          <mv v="11.0000" t="I_STR16"/>
+          <mv v="1050.9000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1050.9000" t="U_STR18"/>
+          <mv v="5.9000" t="I_STR18"/>
+          <mv v="1052.4000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1052.4000" t="U_STR20"/>
+          <mv v="11.0000" t="I_STR20"/>
+          <mv v="1051.0000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1051.0000" t="U_STR22"/>
+          <mv v="12.2000" t="I_STR22"/>
+          <mv v="1064.5000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1064.5000" t="U_STR24"/>
+          <mv v="11.1000" t="I_STR24"/>
+          <mv v="134.1480" t="P_DC"/>
+          <mv v="818.4000" t="U_AC_L1L2"/>
+          <mv v="806.4000" t="U_AC_L2L3"/>
+          <mv v="815.2000" t="U_AC_L3L1"/>
+          <mv v="94.6000" t="I_AC1"/>
+          <mv v="93.9000" t="I_AC2"/>
+          <mv v="94.2000" t="I_AC3"/>
+          <mv v="132.5460" t="S_AC"/>
+          <mv v="132.5250" t="P_AC"/>
+          <mv v="-2.3830" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="253.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-2">
+          <mv v="155.2000" t="E_DAY"/>
+          <mv v="1034244.3154" t="E_TOTAL"/>
+          <mv v="143651.4062" t="E_YEAR"/>
+          <mv v="10321.0000" t="OT_AC_TOTAL"/>
+          <mv v="51.2000" t="T_WR"/>
+          <mv v="1038.7001" t="U_DC1"/>
+          <mv v="10.0000" t="I_DC1"/>
+          <mv v="1054.2001" t="U_DC2"/>
+          <mv v="10.6000" t="I_DC2"/>
+          <mv v="1037.3000" t="U_DC3"/>
+          <mv v="10.9000" t="I_DC3"/>
+          <mv v="1063.9000" t="U_DC4"/>
+          <mv v="10.6000" t="I_DC4"/>
+          <mv v="1053.6000" t="U_DC5"/>
+          <mv v="10.5000" t="I_DC5"/>
+          <mv v="1050.0000" t="U_DC6"/>
+          <mv v="10.8000" t="I_DC6"/>
+          <mv v="1056.0000" t="U_DC7"/>
+          <mv v="10.1000" t="I_DC7"/>
+          <mv v="1068.0000" t="U_DC8"/>
+          <mv v="10.9000" t="I_DC8"/>
+          <mv v="1068.8000" t="U_DC9"/>
+          <mv v="10.5000" t="I_DC9"/>
+          <mv v="1063.4000" t="U_DC10"/>
+          <mv v="5.3000" t="I_DC10"/>
+          <mv v="1056.4000" t="U_DC11"/>
+          <mv v="10.7000" t="I_DC11"/>
+          <mv v="1053.2001" t="U_DC12"/>
+          <mv v="10.9000" t="I_DC12"/>
+          <mv v="1038.7001" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1038.7001" t="U_STR2"/>
+          <mv v="10.1000" t="I_STR2"/>
+          <mv v="1054.2001" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1054.2001" t="U_STR4"/>
+          <mv v="10.8000" t="I_STR4"/>
+          <mv v="1037.3000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1037.3000" t="U_STR6"/>
+          <mv v="10.9000" t="I_STR6"/>
+          <mv v="1063.9000" t="U_STR7"/>
+          <mv v="5.2100" t="I_STR7"/>
+          <mv v="1063.9000" t="U_STR8"/>
+          <mv v="5.0900" t="I_STR8"/>
+          <mv v="1053.6000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1053.6000" t="U_STR10"/>
+          <mv v="10.6000" t="I_STR10"/>
+          <mv v="1050.0000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1050.0000" t="U_STR12"/>
+          <mv v="10.7000" t="I_STR12"/>
+          <mv v="1056.0000" t="U_STR13"/>
+          <mv v="5.1700" t="I_STR13"/>
+          <mv v="1056.0000" t="U_STR14"/>
+          <mv v="4.5500" t="I_STR14"/>
+          <mv v="1068.0000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1068.0000" t="U_STR16"/>
+          <mv v="10.9000" t="I_STR16"/>
+          <mv v="1068.8000" t="U_STR17"/>
+          <mv v="10.5000" t="I_STR17"/>
+          <mv v="1068.8000" t="U_STR18"/>
+          <mv v="0.0000" t="I_STR18"/>
+          <mv v="1063.4000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1063.4000" t="U_STR20"/>
+          <mv v="5.4000" t="I_STR20"/>
+          <mv v="1056.4000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1056.4000" t="U_STR22"/>
+          <mv v="10.8000" t="I_STR22"/>
+          <mv v="1053.2001" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1053.2001" t="U_STR24"/>
+          <mv v="10.8000" t="I_STR24"/>
+          <mv v="128.7530" t="P_DC"/>
+          <mv v="813.6000" t="U_AC_L1L2"/>
+          <mv v="803.2000" t="U_AC_L2L3"/>
+          <mv v="811.2000" t="U_AC_L3L1"/>
+          <mv v="90.8000" t="I_AC1"/>
+          <mv v="90.7000" t="I_AC2"/>
+          <mv v="90.6000" t="I_AC3"/>
+          <mv v="127.2280" t="S_AC"/>
+          <mv v="127.2080" t="P_AC"/>
+          <mv v="-2.2650" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="49.9900" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="229.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-5">
+          <mv v="168.0000" t="E_DAY"/>
+          <mv v="1011228.1151" t="E_TOTAL"/>
+          <mv v="140761.2969" t="E_YEAR"/>
+          <mv v="9830.0000" t="OT_AC_TOTAL"/>
+          <mv v="52.0000" t="T_WR"/>
+          <mv v="1054.2001" t="U_DC1"/>
+          <mv v="11.7000" t="I_DC1"/>
+          <mv v="1037.8000" t="U_DC2"/>
+          <mv v="11.7000" t="I_DC2"/>
+          <mv v="1063.8000" t="U_DC3"/>
+          <mv v="11.8000" t="I_DC3"/>
+          <mv v="1054.5000" t="U_DC4"/>
+          <mv v="11.2000" t="I_DC4"/>
+          <mv v="1046.9000" t="U_DC5"/>
+          <mv v="11.8000" t="I_DC5"/>
+          <mv v="1056.3000" t="U_DC6"/>
+          <mv v="11.3000" t="I_DC6"/>
+          <mv v="104.5000" t="U_DC7"/>
+          <mv v="0.0000" t="I_DC7"/>
+          <mv v="1048.6000" t="U_DC8"/>
+          <mv v="12.0000" t="I_DC8"/>
+          <mv v="1046.3000" t="U_DC9"/>
+          <mv v="11.9000" t="I_DC9"/>
+          <mv v="1050.7001" t="U_DC10"/>
+          <mv v="11.5000" t="I_DC10"/>
+          <mv v="1060.2001" t="U_DC11"/>
+          <mv v="11.4000" t="I_DC11"/>
+          <mv v="1057.2001" t="U_DC12"/>
+          <mv v="11.6000" t="I_DC12"/>
+          <mv v="1054.2001" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1054.2001" t="U_STR2"/>
+          <mv v="11.7000" t="I_STR2"/>
+          <mv v="1037.8000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1037.8000" t="U_STR4"/>
+          <mv v="11.7000" t="I_STR4"/>
+          <mv v="1063.8000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1063.8000" t="U_STR6"/>
+          <mv v="11.8000" t="I_STR6"/>
+          <mv v="1054.5000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1054.5000" t="U_STR8"/>
+          <mv v="11.2000" t="I_STR8"/>
+          <mv v="1046.9000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1046.9000" t="U_STR10"/>
+          <mv v="11.8000" t="I_STR10"/>
+          <mv v="1056.3000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1056.3000" t="U_STR12"/>
+          <mv v="11.3000" t="I_STR12"/>
+          <mv v="104.5000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="104.5000" t="U_STR14"/>
+          <mv v="0.0000" t="I_STR14"/>
+          <mv v="1048.6000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1048.6000" t="U_STR16"/>
+          <mv v="12.0000" t="I_STR16"/>
+          <mv v="1046.3000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1046.3000" t="U_STR18"/>
+          <mv v="11.9000" t="I_STR18"/>
+          <mv v="1050.7001" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1050.7001" t="U_STR20"/>
+          <mv v="11.5000" t="I_STR20"/>
+          <mv v="1060.2001" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1060.2001" t="U_STR22"/>
+          <mv v="11.4000" t="I_STR22"/>
+          <mv v="1057.2001" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1057.2001" t="U_STR24"/>
+          <mv v="11.6000" t="I_STR24"/>
+          <mv v="134.9020" t="P_DC"/>
+          <mv v="820.9000" t="U_AC_L1L2"/>
+          <mv v="810.3000" t="U_AC_L2L3"/>
+          <mv v="818.4000" t="U_AC_L3L1"/>
+          <mv v="94.4000" t="I_AC1"/>
+          <mv v="94.2000" t="I_AC2"/>
+          <mv v="94.1000" t="I_AC3"/>
+          <mv v="133.2920" t="S_AC"/>
+          <mv v="133.2700" t="P_AC"/>
+          <mv v="-2.4590" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0000" t="F_AC"/>
+          <mv v="179.0000" t="FT_AC_DAY"/>
+          <mv v="247.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-14">
+          <mv v="153.3000" t="E_DAY"/>
+          <mv v="1042242.9155" t="E_TOTAL"/>
+          <mv v="145457.5000" t="E_YEAR"/>
+          <mv v="9908.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.8000" t="T_WR"/>
+          <mv v="1062.4000" t="U_DC1"/>
+          <mv v="10.5000" t="I_DC1"/>
+          <mv v="1065.3000" t="U_DC2"/>
+          <mv v="10.3000" t="I_DC2"/>
+          <mv v="1058.2001" t="U_DC3"/>
+          <mv v="10.4000" t="I_DC3"/>
+          <mv v="1062.8000" t="U_DC4"/>
+          <mv v="10.4000" t="I_DC4"/>
+          <mv v="1060.3000" t="U_DC5"/>
+          <mv v="10.5000" t="I_DC5"/>
+          <mv v="1061.7001" t="U_DC6"/>
+          <mv v="10.4000" t="I_DC6"/>
+          <mv v="1068.8000" t="U_DC7"/>
+          <mv v="10.5000" t="I_DC7"/>
+          <mv v="1078.2001" t="U_DC8"/>
+          <mv v="5.3000" t="I_DC8"/>
+          <mv v="1047.7001" t="U_DC9"/>
+          <mv v="10.2000" t="I_DC9"/>
+          <mv v="1063.7001" t="U_DC10"/>
+          <mv v="10.5000" t="I_DC10"/>
+          <mv v="1077.8000" t="U_DC11"/>
+          <mv v="10.4000" t="I_DC11"/>
+          <mv v="1062.0000" t="U_DC12"/>
+          <mv v="10.3000" t="I_DC12"/>
+          <mv v="1062.4000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1062.4000" t="U_STR2"/>
+          <mv v="10.6000" t="I_STR2"/>
+          <mv v="1065.3000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1065.3000" t="U_STR4"/>
+          <mv v="10.4000" t="I_STR4"/>
+          <mv v="1058.2001" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1058.2001" t="U_STR6"/>
+          <mv v="10.5000" t="I_STR6"/>
+          <mv v="1062.8000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1062.8000" t="U_STR8"/>
+          <mv v="10.5000" t="I_STR8"/>
+          <mv v="1060.3000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1060.3000" t="U_STR10"/>
+          <mv v="10.6000" t="I_STR10"/>
+          <mv v="1061.7001" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1061.7001" t="U_STR12"/>
+          <mv v="10.4000" t="I_STR12"/>
+          <mv v="1068.8000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1068.8000" t="U_STR14"/>
+          <mv v="10.6000" t="I_STR14"/>
+          <mv v="1078.2001" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1078.2001" t="U_STR16"/>
+          <mv v="5.3000" t="I_STR16"/>
+          <mv v="1047.7001" t="U_STR17"/>
+          <mv v="5.0400" t="I_STR17"/>
+          <mv v="1047.7001" t="U_STR18"/>
+          <mv v="5.1600" t="I_STR18"/>
+          <mv v="1063.7001" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1063.7001" t="U_STR20"/>
+          <mv v="10.5000" t="I_STR20"/>
+          <mv v="1077.8000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1077.8000" t="U_STR22"/>
+          <mv v="10.6000" t="I_STR22"/>
+          <mv v="1062.0000" t="U_STR23"/>
+          <mv v="5.2900" t="I_STR23"/>
+          <mv v="1062.0000" t="U_STR24"/>
+          <mv v="4.9300" t="I_STR24"/>
+          <mv v="127.8330" t="P_DC"/>
+          <mv v="814.1000" t="U_AC_L1L2"/>
+          <mv v="802.4000" t="U_AC_L2L3"/>
+          <mv v="810.6000" t="U_AC_L3L1"/>
+          <mv v="90.7000" t="I_AC1"/>
+          <mv v="90.5000" t="I_AC2"/>
+          <mv v="90.6000" t="I_AC3"/>
+          <mv v="126.3450" t="S_AC"/>
+          <mv v="126.3250" t="P_AC"/>
+          <mv v="-2.3020" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0200" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="279.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-28">
+          <mv v="150.5000" t="E_DAY"/>
+          <mv v="1000142.1149" t="E_TOTAL"/>
+          <mv v="138628.4062" t="E_YEAR"/>
+          <mv v="9916.0000" t="OT_AC_TOTAL"/>
+          <mv v="51.1000" t="T_WR"/>
+          <mv v="1070.3000" t="U_DC1"/>
+          <mv v="10.4000" t="I_DC1"/>
+          <mv v="1057.3000" t="U_DC2"/>
+          <mv v="10.6000" t="I_DC2"/>
+          <mv v="1067.4000" t="U_DC3"/>
+          <mv v="10.6000" t="I_DC3"/>
+          <mv v="1063.9000" t="U_DC4"/>
+          <mv v="10.6000" t="I_DC4"/>
+          <mv v="1062.5000" t="U_DC5"/>
+          <mv v="10.8000" t="I_DC5"/>
+          <mv v="1065.9000" t="U_DC6"/>
+          <mv v="10.3000" t="I_DC6"/>
+          <mv v="1055.7001" t="U_DC7"/>
+          <mv v="10.6000" t="I_DC7"/>
+          <mv v="1058.7001" t="U_DC8"/>
+          <mv v="10.7000" t="I_DC8"/>
+          <mv v="1039.3000" t="U_DC9"/>
+          <mv v="10.9000" t="I_DC9"/>
+          <mv v="1046.2001" t="U_DC10"/>
+          <mv v="5.4000" t="I_DC10"/>
+          <mv v="1066.9000" t="U_DC11"/>
+          <mv v="5.3000" t="I_DC11"/>
+          <mv v="1063.1000" t="U_DC12"/>
+          <mv v="10.8000" t="I_DC12"/>
+          <mv v="1070.3000" t="U_STR1"/>
+          <mv v="5.1400" t="I_STR1"/>
+          <mv v="1070.3000" t="U_STR2"/>
+          <mv v="5.3100" t="I_STR2"/>
+          <mv v="1057.3000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1057.3000" t="U_STR4"/>
+          <mv v="10.6000" t="I_STR4"/>
+          <mv v="1067.4000" t="U_STR5"/>
+          <mv v="10.6000" t="I_STR5"/>
+          <mv v="1067.4000" t="U_STR6"/>
+          <mv v="0.0000" t="I_STR6"/>
+          <mv v="1063.9000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1063.9000" t="U_STR8"/>
+          <mv v="10.6000" t="I_STR8"/>
+          <mv v="1062.5000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1062.5000" t="U_STR10"/>
+          <mv v="10.8000" t="I_STR10"/>
+          <mv v="1065.9000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1065.9000" t="U_STR12"/>
+          <mv v="10.3000" t="I_STR12"/>
+          <mv v="1055.7001" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1055.7001" t="U_STR14"/>
+          <mv v="10.6000" t="I_STR14"/>
+          <mv v="1058.7001" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1058.7001" t="U_STR16"/>
+          <mv v="10.6000" t="I_STR16"/>
+          <mv v="1039.3000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1039.3000" t="U_STR18"/>
+          <mv v="10.9000" t="I_STR18"/>
+          <mv v="1046.2001" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1046.2001" t="U_STR20"/>
+          <mv v="5.5000" t="I_STR20"/>
+          <mv v="1066.9000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1066.9000" t="U_STR22"/>
+          <mv v="5.3000" t="I_STR22"/>
+          <mv v="1063.1000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1063.1000" t="U_STR24"/>
+          <mv v="10.8000" t="I_STR24"/>
+          <mv v="123.8330" t="P_DC"/>
+          <mv v="814.5000" t="U_AC_L1L2"/>
+          <mv v="804.9000" t="U_AC_L2L3"/>
+          <mv v="814.4000" t="U_AC_L3L1"/>
+          <mv v="87.1000" t="I_AC1"/>
+          <mv v="86.8000" t="I_AC2"/>
+          <mv v="87.0000" t="I_AC3"/>
+          <mv v="121.9680" t="S_AC"/>
+          <mv v="121.9510" t="P_AC"/>
+          <mv v="-2.0550" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="298.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-4">
+          <mv v="167.1000" t="E_DAY"/>
+          <mv v="1014158.6151" t="E_TOTAL"/>
+          <mv v="141434.1094" t="E_YEAR"/>
+          <mv v="16201.0000" t="OT_AC_TOTAL"/>
+          <mv v="53.4000" t="T_WR"/>
+          <mv v="1034.6000" t="U_DC1"/>
+          <mv v="11.6000" t="I_DC1"/>
+          <mv v="123.6000" t="U_DC2"/>
+          <mv v="0.0000" t="I_DC2"/>
+          <mv v="1042.5000" t="U_DC3"/>
+          <mv v="11.4000" t="I_DC3"/>
+          <mv v="1045.3000" t="U_DC4"/>
+          <mv v="11.8000" t="I_DC4"/>
+          <mv v="1034.3000" t="U_DC5"/>
+          <mv v="12.0000" t="I_DC5"/>
+          <mv v="1048.6000" t="U_DC6"/>
+          <mv v="12.0000" t="I_DC6"/>
+          <mv v="1052.5000" t="U_DC7"/>
+          <mv v="11.4000" t="I_DC7"/>
+          <mv v="1037.6000" t="U_DC8"/>
+          <mv v="11.7000" t="I_DC8"/>
+          <mv v="1044.3000" t="U_DC9"/>
+          <mv v="11.6000" t="I_DC9"/>
+          <mv v="1053.5000" t="U_DC10"/>
+          <mv v="11.7000" t="I_DC10"/>
+          <mv v="1058.1000" t="U_DC11"/>
+          <mv v="11.6000" t="I_DC11"/>
+          <mv v="1038.3000" t="U_DC12"/>
+          <mv v="11.9000" t="I_DC12"/>
+          <mv v="1034.6000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1034.6000" t="U_STR2"/>
+          <mv v="11.6000" t="I_STR2"/>
+          <mv v="123.6000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="123.6000" t="U_STR4"/>
+          <mv v="0.0000" t="I_STR4"/>
+          <mv v="1042.5000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1042.5000" t="U_STR6"/>
+          <mv v="11.3000" t="I_STR6"/>
+          <mv v="1045.3000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1045.3000" t="U_STR8"/>
+          <mv v="11.8000" t="I_STR8"/>
+          <mv v="1034.3000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1034.3000" t="U_STR10"/>
+          <mv v="12.0000" t="I_STR10"/>
+          <mv v="1048.6000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1048.6000" t="U_STR12"/>
+          <mv v="12.0000" t="I_STR12"/>
+          <mv v="1052.5000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1052.5000" t="U_STR14"/>
+          <mv v="11.4000" t="I_STR14"/>
+          <mv v="1037.6000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1037.6000" t="U_STR16"/>
+          <mv v="11.7000" t="I_STR16"/>
+          <mv v="1044.3000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1044.3000" t="U_STR18"/>
+          <mv v="11.7000" t="I_STR18"/>
+          <mv v="1053.5000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1053.5000" t="U_STR20"/>
+          <mv v="11.7000" t="I_STR20"/>
+          <mv v="1058.1000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1058.1000" t="U_STR22"/>
+          <mv v="11.5000" t="I_STR22"/>
+          <mv v="1038.3000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1038.3000" t="U_STR24"/>
+          <mv v="11.9000" t="I_STR24"/>
+          <mv v="134.3310" t="P_DC"/>
+          <mv v="819.5000" t="U_AC_L1L2"/>
+          <mv v="808.1000" t="U_AC_L2L3"/>
+          <mv v="817.4000" t="U_AC_L3L1"/>
+          <mv v="94.3000" t="I_AC1"/>
+          <mv v="93.9000" t="I_AC2"/>
+          <mv v="93.9000" t="I_AC3"/>
+          <mv v="132.7120" t="S_AC"/>
+          <mv v="132.6920" t="P_AC"/>
+          <mv v="-2.3230" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="544.0000" t="FT_AC_DAY"/>
+          <mv v="228.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-19">
+          <mv v="136.5000" t="E_DAY"/>
+          <mv v="977487.9146" t="E_TOTAL"/>
+          <mv v="134626.5000" t="E_YEAR"/>
+          <mv v="9923.0000" t="OT_AC_TOTAL"/>
+          <mv v="49.1000" t="T_WR"/>
+          <mv v="1062.2001" t="U_DC1"/>
+          <mv v="10.4000" t="I_DC1"/>
+          <mv v="1074.4000" t="U_DC2"/>
+          <mv v="5.1000" t="I_DC2"/>
+          <mv v="1080.4000" t="U_DC3"/>
+          <mv v="4.8000" t="I_DC3"/>
+          <mv v="1046.4000" t="U_DC4"/>
+          <mv v="10.0000" t="I_DC4"/>
+          <mv v="1054.5000" t="U_DC5"/>
+          <mv v="10.4000" t="I_DC5"/>
+          <mv v="1052.3000" t="U_DC6"/>
+          <mv v="10.2000" t="I_DC6"/>
+          <mv v="1064.2001" t="U_DC7"/>
+          <mv v="10.6000" t="I_DC7"/>
+          <mv v="1068.4000" t="U_DC8"/>
+          <mv v="9.6000" t="I_DC8"/>
+          <mv v="1060.4000" t="U_DC9"/>
+          <mv v="10.1000" t="I_DC9"/>
+          <mv v="1050.6000" t="U_DC10"/>
+          <mv v="10.0000" t="I_DC10"/>
+          <mv v="1055.8000" t="U_DC11"/>
+          <mv v="9.9000" t="I_DC11"/>
+          <mv v="1059.6000" t="U_DC12"/>
+          <mv v="9.8000" t="I_DC12"/>
+          <mv v="1062.2001" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1062.2001" t="U_STR2"/>
+          <mv v="10.3000" t="I_STR2"/>
+          <mv v="1074.4000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1074.4000" t="U_STR4"/>
+          <mv v="5.1000" t="I_STR4"/>
+          <mv v="1080.4000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1080.4000" t="U_STR6"/>
+          <mv v="4.8000" t="I_STR6"/>
+          <mv v="1046.4000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1046.4000" t="U_STR8"/>
+          <mv v="10.0000" t="I_STR8"/>
+          <mv v="1054.5000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1054.5000" t="U_STR10"/>
+          <mv v="10.4000" t="I_STR10"/>
+          <mv v="1052.3000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1052.3000" t="U_STR12"/>
+          <mv v="10.2000" t="I_STR12"/>
+          <mv v="1064.2001" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1064.2001" t="U_STR14"/>
+          <mv v="10.5000" t="I_STR14"/>
+          <mv v="1068.4000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1068.4000" t="U_STR16"/>
+          <mv v="9.7000" t="I_STR16"/>
+          <mv v="1060.4000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1060.4000" t="U_STR18"/>
+          <mv v="10.1000" t="I_STR18"/>
+          <mv v="1050.6000" t="U_STR19"/>
+          <mv v="4.9700" t="I_STR19"/>
+          <mv v="1050.6000" t="U_STR20"/>
+          <mv v="4.9700" t="I_STR20"/>
+          <mv v="1055.8000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1055.8000" t="U_STR22"/>
+          <mv v="9.9000" t="I_STR22"/>
+          <mv v="1059.6000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1059.6000" t="U_STR24"/>
+          <mv v="9.7000" t="I_STR24"/>
+          <mv v="117.3130" t="P_DC"/>
+          <mv v="813.6000" t="U_AC_L1L2"/>
+          <mv v="801.6000" t="U_AC_L2L3"/>
+          <mv v="811.0000" t="U_AC_L3L1"/>
+          <mv v="81.7000" t="I_AC1"/>
+          <mv v="81.7000" t="I_AC2"/>
+          <mv v="81.8000" t="I_AC3"/>
+          <mv v="114.2580" t="S_AC"/>
+          <mv v="114.2410" t="P_AC"/>
+          <mv v="-2.0010" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0200" t="F_AC"/>
+          <mv v="177.0000" t="FT_AC_DAY"/>
+          <mv v="240.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-22">
+          <mv v="141.1000" t="E_DAY"/>
+          <mv v="823048.1123" t="E_TOTAL"/>
+          <mv v="136360.4062" t="E_YEAR"/>
+          <mv v="8521.0000" t="OT_AC_TOTAL"/>
+          <mv v="49.0000" t="T_WR"/>
+          <mv v="1065.0000" t="U_DC1"/>
+          <mv v="5.1000" t="I_DC1"/>
+          <mv v="1065.0000" t="U_DC2"/>
+          <mv v="9.8000" t="I_DC2"/>
+          <mv v="1054.4000" t="U_DC3"/>
+          <mv v="10.0000" t="I_DC3"/>
+          <mv v="1064.5000" t="U_DC4"/>
+          <mv v="5.2000" t="I_DC4"/>
+          <mv v="1061.8000" t="U_DC5"/>
+          <mv v="10.2000" t="I_DC5"/>
+          <mv v="1061.1000" t="U_DC6"/>
+          <mv v="10.0000" t="I_DC6"/>
+          <mv v="1057.0000" t="U_DC7"/>
+          <mv v="9.8000" t="I_DC7"/>
+          <mv v="1054.6000" t="U_DC8"/>
+          <mv v="10.3000" t="I_DC8"/>
+          <mv v="1062.7001" t="U_DC9"/>
+          <mv v="10.0000" t="I_DC9"/>
+          <mv v="1071.1000" t="U_DC10"/>
+          <mv v="10.2000" t="I_DC10"/>
+          <mv v="1050.5000" t="U_DC11"/>
+          <mv v="10.1000" t="I_DC11"/>
+          <mv v="1052.2001" t="U_DC12"/>
+          <mv v="10.4000" t="I_DC12"/>
+          <mv v="1065.0000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1065.0000" t="U_STR2"/>
+          <mv v="5.1000" t="I_STR2"/>
+          <mv v="1065.0000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1065.0000" t="U_STR4"/>
+          <mv v="9.7000" t="I_STR4"/>
+          <mv v="1054.4000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1054.4000" t="U_STR6"/>
+          <mv v="10.0000" t="I_STR6"/>
+          <mv v="1064.5000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1064.5000" t="U_STR8"/>
+          <mv v="5.2000" t="I_STR8"/>
+          <mv v="1061.8000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1061.8000" t="U_STR10"/>
+          <mv v="10.2000" t="I_STR10"/>
+          <mv v="1061.1000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1061.1000" t="U_STR12"/>
+          <mv v="10.0000" t="I_STR12"/>
+          <mv v="1057.0000" t="U_STR13"/>
+          <mv v="9.8000" t="I_STR13"/>
+          <mv v="1057.0000" t="U_STR14"/>
+          <mv v="0.0000" t="I_STR14"/>
+          <mv v="1054.6000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1054.6000" t="U_STR16"/>
+          <mv v="10.2000" t="I_STR16"/>
+          <mv v="1062.7001" t="U_STR17"/>
+          <mv v="10.1000" t="I_STR17"/>
+          <mv v="1062.7001" t="U_STR18"/>
+          <mv v="0.0000" t="I_STR18"/>
+          <mv v="1071.1000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1071.1000" t="U_STR20"/>
+          <mv v="10.2000" t="I_STR20"/>
+          <mv v="1050.5000" t="U_STR21"/>
+          <mv v="4.9900" t="I_STR21"/>
+          <mv v="1050.5000" t="U_STR22"/>
+          <mv v="5.1300" t="I_STR22"/>
+          <mv v="1052.2001" t="U_STR23"/>
+          <mv v="5.2200" t="I_STR23"/>
+          <mv v="1052.2001" t="U_STR24"/>
+          <mv v="4.9000" t="I_STR24"/>
+          <mv v="118.1150" t="P_DC"/>
+          <mv v="814.4000" t="U_AC_L1L2"/>
+          <mv v="804.0000" t="U_AC_L2L3"/>
+          <mv v="814.4000" t="U_AC_L3L1"/>
+          <mv v="83.5000" t="I_AC1"/>
+          <mv v="83.0000" t="I_AC2"/>
+          <mv v="83.2000" t="I_AC3"/>
+          <mv v="116.7390" t="S_AC"/>
+          <mv v="116.7210" t="P_AC"/>
+          <mv v="-2.0570" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0000" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="281.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-20">
+          <mv v="154.9000" t="E_DAY"/>
+          <mv v="1032416.4154" t="E_TOTAL"/>
+          <mv v="143091.9062" t="E_YEAR"/>
+          <mv v="9881.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.7000" t="T_WR"/>
+          <mv v="1054.8000" t="U_DC1"/>
+          <mv v="10.7000" t="I_DC1"/>
+          <mv v="1050.8000" t="U_DC2"/>
+          <mv v="10.3000" t="I_DC2"/>
+          <mv v="1050.7001" t="U_DC3"/>
+          <mv v="10.9000" t="I_DC3"/>
+          <mv v="1050.1000" t="U_DC4"/>
+          <mv v="10.4000" t="I_DC4"/>
+          <mv v="1039.6000" t="U_DC5"/>
+          <mv v="5.2000" t="I_DC5"/>
+          <mv v="1060.5000" t="U_DC6"/>
+          <mv v="10.4000" t="I_DC6"/>
+          <mv v="1056.1000" t="U_DC7"/>
+          <mv v="10.5000" t="I_DC7"/>
+          <mv v="1058.8000" t="U_DC8"/>
+          <mv v="10.7000" t="I_DC8"/>
+          <mv v="1058.6000" t="U_DC9"/>
+          <mv v="10.3000" t="I_DC9"/>
+          <mv v="1069.2001" t="U_DC10"/>
+          <mv v="10.3000" t="I_DC10"/>
+          <mv v="1059.1000" t="U_DC11"/>
+          <mv v="10.6000" t="I_DC11"/>
+          <mv v="1059.7001" t="U_DC12"/>
+          <mv v="10.7000" t="I_DC12"/>
+          <mv v="1054.8000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1054.8000" t="U_STR2"/>
+          <mv v="10.7000" t="I_STR2"/>
+          <mv v="1050.8000" t="U_STR3"/>
+          <mv v="10.2000" t="I_STR3"/>
+          <mv v="1050.8000" t="U_STR4"/>
+          <mv v="0.0000" t="I_STR4"/>
+          <mv v="1050.7001" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1050.7001" t="U_STR6"/>
+          <mv v="10.9000" t="I_STR6"/>
+          <mv v="1050.1000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1050.1000" t="U_STR8"/>
+          <mv v="10.4000" t="I_STR8"/>
+          <mv v="1039.6000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1039.6000" t="U_STR10"/>
+          <mv v="5.2000" t="I_STR10"/>
+          <mv v="1060.5000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1060.5000" t="U_STR12"/>
+          <mv v="10.4000" t="I_STR12"/>
+          <mv v="1056.1000" t="U_STR13"/>
+          <mv v="10.3000" t="I_STR13"/>
+          <mv v="1056.1000" t="U_STR14"/>
+          <mv v="0.0000" t="I_STR14"/>
+          <mv v="1058.8000" t="U_STR15"/>
+          <mv v="10.6000" t="I_STR15"/>
+          <mv v="1058.8000" t="U_STR16"/>
+          <mv v="0.0000" t="I_STR16"/>
+          <mv v="1058.6000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1058.6000" t="U_STR18"/>
+          <mv v="10.4000" t="I_STR18"/>
+          <mv v="1069.2001" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1069.2001" t="U_STR20"/>
+          <mv v="10.3000" t="I_STR20"/>
+          <mv v="1059.1000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1059.1000" t="U_STR22"/>
+          <mv v="10.5000" t="I_STR22"/>
+          <mv v="1059.7001" t="U_STR23"/>
+          <mv v="10.7000" t="I_STR23"/>
+          <mv v="1059.7001" t="U_STR24"/>
+          <mv v="0.0000" t="I_STR24"/>
+          <mv v="127.8200" t="P_DC"/>
+          <mv v="815.5000" t="U_AC_L1L2"/>
+          <mv v="804.8000" t="U_AC_L2L3"/>
+          <mv v="812.8000" t="U_AC_L3L1"/>
+          <mv v="90.2000" t="I_AC1"/>
+          <mv v="89.8000" t="I_AC2"/>
+          <mv v="89.9000" t="I_AC3"/>
+          <mv v="126.3180" t="S_AC"/>
+          <mv v="126.2990" t="P_AC"/>
+          <mv v="-2.1980" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="302.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-6">
+          <mv v="169.8000" t="E_DAY"/>
+          <mv v="1006331.5150" t="E_TOTAL"/>
+          <mv v="139596.1094" t="E_YEAR"/>
+          <mv v="9914.0000" t="OT_AC_TOTAL"/>
+          <mv v="52.6000" t="T_WR"/>
+          <mv v="108.9000" t="U_DC1"/>
+          <mv v="0.0000" t="I_DC1"/>
+          <mv v="1056.3000" t="U_DC2"/>
+          <mv v="11.9000" t="I_DC2"/>
+          <mv v="1069.8000" t="U_DC3"/>
+          <mv v="11.4000" t="I_DC3"/>
+          <mv v="1058.8000" t="U_DC4"/>
+          <mv v="11.4000" t="I_DC4"/>
+          <mv v="1060.7001" t="U_DC5"/>
+          <mv v="11.5000" t="I_DC5"/>
+          <mv v="1058.5000" t="U_DC6"/>
+          <mv v="11.5000" t="I_DC6"/>
+          <mv v="1067.6000" t="U_DC7"/>
+          <mv v="11.9000" t="I_DC7"/>
+          <mv v="1066.0000" t="U_DC8"/>
+          <mv v="12.0000" t="I_DC8"/>
+          <mv v="1047.9000" t="U_DC9"/>
+          <mv v="11.9000" t="I_DC9"/>
+          <mv v="1050.8000" t="U_DC10"/>
+          <mv v="11.6000" t="I_DC10"/>
+          <mv v="1054.3000" t="U_DC11"/>
+          <mv v="11.5000" t="I_DC11"/>
+          <mv v="1058.4000" t="U_DC12"/>
+          <mv v="11.6000" t="I_DC12"/>
+          <mv v="108.9000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="108.9000" t="U_STR2"/>
+          <mv v="0.0000" t="I_STR2"/>
+          <mv v="1056.3000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1056.3000" t="U_STR4"/>
+          <mv v="12.0000" t="I_STR4"/>
+          <mv v="1069.8000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1069.8000" t="U_STR6"/>
+          <mv v="11.3000" t="I_STR6"/>
+          <mv v="1058.8000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1058.8000" t="U_STR8"/>
+          <mv v="11.3000" t="I_STR8"/>
+          <mv v="1060.7001" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1060.7001" t="U_STR10"/>
+          <mv v="11.6000" t="I_STR10"/>
+          <mv v="1058.5000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1058.5000" t="U_STR12"/>
+          <mv v="11.5000" t="I_STR12"/>
+          <mv v="1067.6000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1067.6000" t="U_STR14"/>
+          <mv v="11.9000" t="I_STR14"/>
+          <mv v="1066.0000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1066.0000" t="U_STR16"/>
+          <mv v="12.0000" t="I_STR16"/>
+          <mv v="1047.9000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1047.9000" t="U_STR18"/>
+          <mv v="11.9000" t="I_STR18"/>
+          <mv v="1050.8000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1050.8000" t="U_STR20"/>
+          <mv v="11.5000" t="I_STR20"/>
+          <mv v="1054.3000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1054.3000" t="U_STR22"/>
+          <mv v="11.5000" t="I_STR22"/>
+          <mv v="1058.4000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1058.4000" t="U_STR24"/>
+          <mv v="11.7000" t="I_STR24"/>
+          <mv v="136.1540" t="P_DC"/>
+          <mv v="819.3000" t="U_AC_L1L2"/>
+          <mv v="809.8000" t="U_AC_L2L3"/>
+          <mv v="817.6000" t="U_AC_L3L1"/>
+          <mv v="94.8000" t="I_AC1"/>
+          <mv v="94.9000" t="I_AC2"/>
+          <mv v="94.7000" t="I_AC3"/>
+          <mv v="133.9280" t="S_AC"/>
+          <mv v="133.9060" t="P_AC"/>
+          <mv v="-2.4730" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="179.0000" t="FT_AC_DAY"/>
+          <mv v="247.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-1">
+          <mv v="166.4000" t="E_DAY"/>
+          <mv v="1044841.1156" t="E_TOTAL"/>
+          <mv v="146110.0000" t="E_YEAR"/>
+          <mv v="9852.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.6000" t="T_WR"/>
+          <mv v="1050.6000" t="U_DC1"/>
+          <mv v="11.4000" t="I_DC1"/>
+          <mv v="1051.9000" t="U_DC2"/>
+          <mv v="11.0000" t="I_DC2"/>
+          <mv v="1051.9000" t="U_DC3"/>
+          <mv v="11.1000" t="I_DC3"/>
+          <mv v="1039.6000" t="U_DC4"/>
+          <mv v="11.4000" t="I_DC4"/>
+          <mv v="1056.2001" t="U_DC5"/>
+          <mv v="11.3000" t="I_DC5"/>
+          <mv v="1051.7001" t="U_DC6"/>
+          <mv v="11.1000" t="I_DC6"/>
+          <mv v="1053.0000" t="U_DC7"/>
+          <mv v="11.4000" t="I_DC7"/>
+          <mv v="1062.5000" t="U_DC8"/>
+          <mv v="11.3000" t="I_DC8"/>
+          <mv v="1064.7001" t="U_DC9"/>
+          <mv v="11.1000" t="I_DC9"/>
+          <mv v="1048.1000" t="U_DC10"/>
+          <mv v="11.1000" t="I_DC10"/>
+          <mv v="1035.6000" t="U_DC11"/>
+          <mv v="5.7000" t="I_DC11"/>
+          <mv v="1050.3000" t="U_DC12"/>
+          <mv v="11.2000" t="I_DC12"/>
+          <mv v="1050.6000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1050.6000" t="U_STR2"/>
+          <mv v="11.3000" t="I_STR2"/>
+          <mv v="1051.9000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1051.9000" t="U_STR4"/>
+          <mv v="11.0000" t="I_STR4"/>
+          <mv v="1051.9000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1051.9000" t="U_STR6"/>
+          <mv v="11.2000" t="I_STR6"/>
+          <mv v="1039.6000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1039.6000" t="U_STR8"/>
+          <mv v="11.3000" t="I_STR8"/>
+          <mv v="1056.2001" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1056.2001" t="U_STR10"/>
+          <mv v="11.3000" t="I_STR10"/>
+          <mv v="1051.7001" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1051.7001" t="U_STR12"/>
+          <mv v="11.1000" t="I_STR12"/>
+          <mv v="1053.0000" t="U_STR13"/>
+          <mv v="5.3900" t="I_STR13"/>
+          <mv v="1053.0000" t="U_STR14"/>
+          <mv v="5.5400" t="I_STR14"/>
+          <mv v="1062.5000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1062.5000" t="U_STR16"/>
+          <mv v="11.4000" t="I_STR16"/>
+          <mv v="1064.7001" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1064.7001" t="U_STR18"/>
+          <mv v="11.1000" t="I_STR18"/>
+          <mv v="1048.1000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1048.1000" t="U_STR20"/>
+          <mv v="11.2000" t="I_STR20"/>
+          <mv v="1035.6000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1035.6000" t="U_STR22"/>
+          <mv v="5.7000" t="I_STR22"/>
+          <mv v="1050.3000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1050.3000" t="U_STR24"/>
+          <mv v="11.2000" t="I_STR24"/>
+          <mv v="135.5260" t="P_DC"/>
+          <mv v="815.2000" t="U_AC_L1L2"/>
+          <mv v="806.1000" t="U_AC_L2L3"/>
+          <mv v="815.2000" t="U_AC_L3L1"/>
+          <mv v="95.3000" t="I_AC1"/>
+          <mv v="95.1000" t="I_AC2"/>
+          <mv v="95.0000" t="I_AC3"/>
+          <mv v="133.8680" t="S_AC"/>
+          <mv v="133.8470" t="P_AC"/>
+          <mv v="-2.4090" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0200" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="130.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-26">
+          <mv v="148.6000" t="E_DAY"/>
+          <mv v="1034941.9154" t="E_TOTAL"/>
+          <mv v="144251.0000" t="E_YEAR"/>
+          <mv v="9887.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.0000" t="T_WR"/>
+          <mv v="1047.6000" t="U_DC1"/>
+          <mv v="10.4000" t="I_DC1"/>
+          <mv v="1064.8000" t="U_DC2"/>
+          <mv v="10.0000" t="I_DC2"/>
+          <mv v="1057.0000" t="U_DC3"/>
+          <mv v="10.3000" t="I_DC3"/>
+          <mv v="1067.8000" t="U_DC4"/>
+          <mv v="5.2000" t="I_DC4"/>
+          <mv v="1068.6000" t="U_DC5"/>
+          <mv v="10.3000" t="I_DC5"/>
+          <mv v="1046.8000" t="U_DC6"/>
+          <mv v="10.4000" t="I_DC6"/>
+          <mv v="1060.9000" t="U_DC7"/>
+          <mv v="10.1000" t="I_DC7"/>
+          <mv v="1063.9000" t="U_DC8"/>
+          <mv v="10.1000" t="I_DC8"/>
+          <mv v="1063.4000" t="U_DC9"/>
+          <mv v="10.1000" t="I_DC9"/>
+          <mv v="1057.7001" t="U_DC10"/>
+          <mv v="10.2000" t="I_DC10"/>
+          <mv v="1054.1000" t="U_DC11"/>
+          <mv v="10.2000" t="I_DC11"/>
+          <mv v="1061.5000" t="U_DC12"/>
+          <mv v="10.6000" t="I_DC12"/>
+          <mv v="1047.6000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1047.6000" t="U_STR2"/>
+          <mv v="10.4000" t="I_STR2"/>
+          <mv v="1064.8000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1064.8000" t="U_STR4"/>
+          <mv v="10.0000" t="I_STR4"/>
+          <mv v="1057.0000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1057.0000" t="U_STR6"/>
+          <mv v="10.3000" t="I_STR6"/>
+          <mv v="1067.8000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1067.8000" t="U_STR8"/>
+          <mv v="5.2000" t="I_STR8"/>
+          <mv v="1068.6000" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1068.6000" t="U_STR10"/>
+          <mv v="10.3000" t="I_STR10"/>
+          <mv v="1046.8000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1046.8000" t="U_STR12"/>
+          <mv v="10.4000" t="I_STR12"/>
+          <mv v="1060.9000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1060.9000" t="U_STR14"/>
+          <mv v="10.1000" t="I_STR14"/>
+          <mv v="1063.9000" t="U_STR15"/>
+          <mv v="4.9300" t="I_STR15"/>
+          <mv v="1063.9000" t="U_STR16"/>
+          <mv v="5.0800" t="I_STR16"/>
+          <mv v="1063.4000" t="U_STR17"/>
+          <mv v="5.2200" t="I_STR17"/>
+          <mv v="1063.4000" t="U_STR18"/>
+          <mv v="4.8300" t="I_STR18"/>
+          <mv v="1057.7001" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1057.7001" t="U_STR20"/>
+          <mv v="10.2000" t="I_STR20"/>
+          <mv v="1054.1000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1054.1000" t="U_STR22"/>
+          <mv v="10.1000" t="I_STR22"/>
+          <mv v="1061.5000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1061.5000" t="U_STR24"/>
+          <mv v="10.6000" t="I_STR24"/>
+          <mv v="124.5080" t="P_DC"/>
+          <mv v="817.6000" t="U_AC_L1L2"/>
+          <mv v="807.2000" t="U_AC_L2L3"/>
+          <mv v="814.4000" t="U_AC_L3L1"/>
+          <mv v="87.7000" t="I_AC1"/>
+          <mv v="87.3000" t="I_AC2"/>
+          <mv v="87.1000" t="I_AC3"/>
+          <mv v="123.0430" t="S_AC"/>
+          <mv v="123.0260" t="P_AC"/>
+          <mv v="-2.0780" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0100" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="258.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-11">
+          <mv v="178.9000" t="E_DAY"/>
+          <mv v="1031673.9154" t="E_TOTAL"/>
+          <mv v="144666.4062" t="E_YEAR"/>
+          <mv v="9814.0000" t="OT_AC_TOTAL"/>
+          <mv v="53.6000" t="T_WR"/>
+          <mv v="1061.6000" t="U_DC1"/>
+          <mv v="10.9000" t="I_DC1"/>
+          <mv v="1043.6000" t="U_DC2"/>
+          <mv v="12.6000" t="I_DC2"/>
+          <mv v="1051.5000" t="U_DC3"/>
+          <mv v="11.8000" t="I_DC3"/>
+          <mv v="1050.8000" t="U_DC4"/>
+          <mv v="12.2000" t="I_DC4"/>
+          <mv v="1050.2001" t="U_DC5"/>
+          <mv v="6.1000" t="I_DC5"/>
+          <mv v="1057.1000" t="U_DC6"/>
+          <mv v="11.7000" t="I_DC6"/>
+          <mv v="1058.1000" t="U_DC7"/>
+          <mv v="10.8000" t="I_DC7"/>
+          <mv v="1066.6000" t="U_DC8"/>
+          <mv v="11.4000" t="I_DC8"/>
+          <mv v="1049.4000" t="U_DC9"/>
+          <mv v="12.5000" t="I_DC9"/>
+          <mv v="1055.5000" t="U_DC10"/>
+          <mv v="12.3000" t="I_DC10"/>
+          <mv v="1068.7001" t="U_DC11"/>
+          <mv v="11.5000" t="I_DC11"/>
+          <mv v="1050.5000" t="U_DC12"/>
+          <mv v="12.4000" t="I_DC12"/>
+          <mv v="1061.6000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1061.6000" t="U_STR2"/>
+          <mv v="11.1000" t="I_STR2"/>
+          <mv v="1043.6000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1043.6000" t="U_STR4"/>
+          <mv v="12.6000" t="I_STR4"/>
+          <mv v="1051.5000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1051.5000" t="U_STR6"/>
+          <mv v="11.7000" t="I_STR6"/>
+          <mv v="1050.8000" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1050.8000" t="U_STR8"/>
+          <mv v="12.0000" t="I_STR8"/>
+          <mv v="1050.2001" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1050.2001" t="U_STR10"/>
+          <mv v="6.2000" t="I_STR10"/>
+          <mv v="1057.1000" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1057.1000" t="U_STR12"/>
+          <mv v="11.7000" t="I_STR12"/>
+          <mv v="1058.1000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1058.1000" t="U_STR14"/>
+          <mv v="10.8000" t="I_STR14"/>
+          <mv v="1066.6000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1066.6000" t="U_STR16"/>
+          <mv v="11.6000" t="I_STR16"/>
+          <mv v="1049.4000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1049.4000" t="U_STR18"/>
+          <mv v="12.5000" t="I_STR18"/>
+          <mv v="1055.5000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1055.5000" t="U_STR20"/>
+          <mv v="12.3000" t="I_STR20"/>
+          <mv v="1068.7001" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1068.7001" t="U_STR22"/>
+          <mv v="11.7000" t="I_STR22"/>
+          <mv v="1050.5000" t="U_STR23"/>
+          <mv v="0.0000" t="I_STR23"/>
+          <mv v="1050.5000" t="U_STR24"/>
+          <mv v="12.4000" t="I_STR24"/>
+          <mv v="144.3510" t="P_DC"/>
+          <mv v="821.6000" t="U_AC_L1L2"/>
+          <mv v="809.6000" t="U_AC_L2L3"/>
+          <mv v="818.9000" t="U_AC_L3L1"/>
+          <mv v="101.2000" t="I_AC1"/>
+          <mv v="100.7000" t="I_AC2"/>
+          <mv v="100.9000" t="I_AC3"/>
+          <mv v="142.6280" t="S_AC"/>
+          <mv v="142.6040" t="P_AC"/>
+          <mv v="-2.6300" t="Q_AC"/>
+          <mv v="0.9990" t="COS_PHI"/>
+          <mv v="50.0200" t="F_AC"/>
+          <mv v="178.0000" t="FT_AC_DAY"/>
+          <mv v="227.0000" t="R_ISO"/>
+        </device>
+        <device id="inverter-35">
+          <mv v="957384.7143" t="E_TOTAL"/>
+          <mv v="0.0000" t="E_YEAR"/>
+        </device>
+        <device id="inverter-7">
+          <mv v="171.0000" t="E_DAY"/>
+          <mv v="1044676.2156" t="E_TOTAL"/>
+          <mv v="145800.2969" t="E_YEAR"/>
+          <mv v="9904.0000" t="OT_AC_TOTAL"/>
+          <mv v="50.6000" t="T_WR"/>
+          <mv v="1057.0000" t="U_DC1"/>
+          <mv v="11.3000" t="I_DC1"/>
+          <mv v="1062.0000" t="U_DC2"/>
+          <mv v="11.1000" t="I_DC2"/>
+          <mv v="1053.0000" t="U_DC3"/>
+          <mv v="5.5000" t="I_DC3"/>
+          <mv v="1063.2001" t="U_DC4"/>
+          <mv v="11.3000" t="I_DC4"/>
+          <mv v="1059.7001" t="U_DC5"/>
+          <mv v="11.3000" t="I_DC5"/>
+          <mv v="1064.7001" t="U_DC6"/>
+          <mv v="11.5000" t="I_DC6"/>
+          <mv v="1053.0000" t="U_DC7"/>
+          <mv v="11.3000" t="I_DC7"/>
+          <mv v="1062.5000" t="U_DC8"/>
+          <mv v="11.6000" t="I_DC8"/>
+          <mv v="1056.1000" t="U_DC9"/>
+          <mv v="11.3000" t="I_DC9"/>
+          <mv v="1049.1000" t="U_DC10"/>
+          <mv v="11.4000" t="I_DC10"/>
+          <mv v="1068.5000" t="U_DC11"/>
+          <mv v="11.2000" t="I_DC11"/>
+          <mv v="1060.5000" t="U_DC12"/>
+          <mv v="11.2000" t="I_DC12"/>
+          <mv v="1057.0000" t="U_STR1"/>
+          <mv v="0.0000" t="I_STR1"/>
+          <mv v="1057.0000" t="U_STR2"/>
+          <mv v="11.2000" t="I_STR2"/>
+          <mv v="1062.0000" t="U_STR3"/>
+          <mv v="0.0000" t="I_STR3"/>
+          <mv v="1062.0000" t="U_STR4"/>
+          <mv v="11.0000" t="I_STR4"/>
+          <mv v="1053.0000" t="U_STR5"/>
+          <mv v="0.0000" t="I_STR5"/>
+          <mv v="1053.0000" t="U_STR6"/>
+          <mv v="5.6000" t="I_STR6"/>
+          <mv v="1063.2001" t="U_STR7"/>
+          <mv v="0.0000" t="I_STR7"/>
+          <mv v="1063.2001" t="U_STR8"/>
+          <mv v="11.3000" t="I_STR8"/>
+          <mv v="1059.7001" t="U_STR9"/>
+          <mv v="0.0000" t="I_STR9"/>
+          <mv v="1059.7001" t="U_STR10"/>
+          <mv v="11.2000" t="I_STR10"/>
+          <mv v="1064.7001" t="U_STR11"/>
+          <mv v="0.0000" t="I_STR11"/>
+          <mv v="1064.7001" t="U_STR12"/>
+          <mv v="11.4000" t="I_STR12"/>
+          <mv v="1053.0000" t="U_STR13"/>
+          <mv v="0.0000" t="I_STR13"/>
+          <mv v="1053.0000" t="U_STR14"/>
+          <mv v="11.3000" t="I_STR14"/>
+          <mv v="1062.5000" t="U_STR15"/>
+          <mv v="0.0000" t="I_STR15"/>
+          <mv v="1062.5000" t="U_STR16"/>
+          <mv v="11.6000" t="I_STR16"/>
+          <mv v="1056.1000" t="U_STR17"/>
+          <mv v="0.0000" t="I_STR17"/>
+          <mv v="1056.1000" t="U_STR18"/>
+          <mv v="11.4000" t="I_STR18"/>
+          <mv v="1049.1000" t="U_STR19"/>
+          <mv v="0.0000" t="I_STR19"/>
+          <mv v="1049.1000" t="U_STR20"/>
+          <mv v="11.4000" t="I_STR20"/>
+          <mv v="1068.5000" t="U_STR21"/>
+          <mv v="0.0000" t="I_STR21"/>
+          <mv v="1068.5000" t="U_STR22"/>
+          <mv v="11.2000" t="I_STR22"/>
+          <mv v="1060.5000" t="U_STR23"/>
+          <mv v="5.7400" t="I_STR23"/>
+          <mv v="1060.5000" t="U_STR24"/>
+          <mv v="5.3700" t="I_STR24"/>
+          <mv v="138.0140" t="P_DC"/>
+          <mv v="817.6000" t="U_AC_L1L2"/>
+          <mv v="808.8000" t="U_AC_L2L3"/>
+          <mv v="815.2000" t="U_AC_L3L1"/>
+          <mv v="96.7000" t="I_AC1"/>
+          <mv v="96.6000" t="I_AC2"/>
+          <mv v="96.7000" t="I_AC3"/>
+          <mv v="136.1580" t="S_AC"/>
+          <mv v="136.1410" t="P_AC"/>
+          <mv v="-2.1710" t="Q_AC"/>
+          </device>
+          </datapoint>
+          </datapoints>
+          </datalogger>
+          </mii>
+          
+       

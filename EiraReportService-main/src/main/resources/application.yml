@@ -1,0 +1,52 @@
+server:
+  port: 8090
+spring:
+
+  datasource:
+    url: jdbc:postgresql://eampmdb-qa.cu1ib3gisbxt.ap-south-1.rds.amazonaws.com/eirasaas
+    username: eampm
+    password: Admin123
+    driver-class-name: org.postgresql.Driver
+    
+    hikari:
+      schema: eira
+      maximum-pool-size: 10
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
+        
+        
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: support@eira.io
+    password: eira@ice4ever
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true  
+        
+ftp:
+  server: 3.109.2.47
+  port: 21
+  username: eira_hs_qa
+  password: hs@123  
+
+aws: 
+   accessKey : KIAUAXCCQ2BPIH3EIVP
+   secretKey : dQevIFYuEmFnv6bg9rLxesYnKUU1z6wr6teroXJU
+   bucketName : eira-logo
+   region : ap-south-1
+   boot:
+    javac: -Xmx2g -Xms1g
+   
